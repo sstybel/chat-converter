@@ -1,0 +1,105 @@
+-26:36 | Austin Audu: Hi Everyone from Dallas Texa
+-6:41 | Leo: Much is riding on AI. Please don't pop
+-2:57 | Microsoft Reactor: We’ll begin in a few moments! Please take this opportunity to review our code of conduct: https://developer.microsoft.com/reactor/codeofconduct/
+-2:30 | Pamela Fox: Welcome everyone! Streaming today from California like usual.
+-1:17 | Greg D: Hello
+-0:15 | Wim Thiels: he
+0:10 | Marc R: Hello from London, UK
+0:10 | Sayan Dey: Hell
+0:17 | Leo: here we go
+0:37 | Greg Peatfield: Hello from New England US
+0:38 | Gert Hector: Hej from Swede
+0:38 | NG YEW SENG: Hey I'm from Singapor
+0:43 | Microsoft Reactor: Thanks for joining! This is Anna, your producer for today joining you from Redmond, WashingtonFrom where are you tuning in
+1:02 | Peter Anny-Nzekwue: Hello from Dubli
+1:06 | Heitor Paes: hell
+1:19 | Sayan Dey: Hello from Kolkat
+1:20 | Salary Man: Missed yesterday's session, but back for today'
+1:20 | Alexia Martinez: Hello from El Salvador!
+1:46 | Microsoft Reactor: Explore the series: https://aka.ms/PythonAI/series
+1:55 | Alex Lopez: Hi, From El Salvado
+2:25 | Microsoft Reactor: https://aka.ms/python-openai-demos
+3:34 | Joel Muhoho: slides lin
+4:00 | Microsoft Reactor: @Joel Muhoho here you go! Explore the slides and episode resources - https://aka.ms/pythonai/resources
+4:00 | Marc R: @Microsoft Reactor- Anna can you please share the PDF for us to follow
+4:20 | Microsoft Reactor: You can follow along with the slides in the resources link above
+4:35 | Marc R: @Microsoft Reactor. Thanks Ann
+4:37 | Tim Mackey: Could you please share your screen at a higher resolution? Thank you
+5:33 | Jorge Zúñiga: Hola, buen día desde México!
+6:08 | Microsoft Reactor: @Tim Mackey we are sharing at 1080 - it may just be an artifact of being live! Make sure your YT settings are for highest quality playbac
+8:57 | Lakshmi M (LakshmisWork): Thank you so much for this series, it is indeed very usefu
+9:14 | GPS: hi everyone
+9:27 | GPS: ready for class #
+9:51 | Leo: Love FastAPI and Pydantic solid librarie
+9:53 | Georgian Pirvu: looks like Object-oriented programming clas
+11:04 | Kevin Kawchak: How long does it take to switch between new requests (once everything is set up)
+11:23 | GPS: @Kevin Kawchak what do you mean switch request
+13:31 | John C: The response retruned Date as Friday, was expecting to return a dat
+13:52 | Ammar Ahmed: does this work for large text (like extracting keyfields from a 10 page contract)?
+14:33 | Kristopher Betz (kjbetz): Is there a similar library for C# like Pydantic
+15:58 | Kristopher Betz (kjbetz): Disregard maybe... I thought Pydantic was making a wrapper for the structured output, looks like more of a validation library
+16:05 | GPS: @Kristopher Betz (kjbetz) isn't that sorta built into C#?
+16:16 | Edmar Souza: By structured output I was thinking in scenarios like the case where gave a input prompt I want my agent AI , answer an IAC code. fir example Terraform files and structur
+17:24 | GPS: it all comes back to json!
+17:57 | Kristopher Betz (kjbetz): What is turning model into json_schema
+18:06 | GPS: like scooby doo unmasking a ghost
+18:26 | Leo: I think YY-MM-DD is an invalid date format in Python. Y-mm-d
+18:38 | Leo: Capital M is minute
+19:11 | Kristopher Betz (kjbetz): Got it, thanks... will need to look up the way to do that with C# libraries
+21:02 | N S: you are actually very clear :
+25:34 | Kevin Kawchak: It seems like for multiple LLM manufacturers, I get back JSON for complex tasks, unless I explicitly state "Full Python Script
+25:54 | Ammar Ahmed: if certain field not found in the context, does the JSON_SCHEMA defaults to NaN (or alternative) or just fail
+27:27 | Microsoft Reactor: https://aka.ms/entity-extraction-demos
+27:30 | A F: Hi from nyc
+28:02 | Daniel: wonde
+29:23 | GPS: lo
+29:25 | GPS: just exit i
+34:48 | N S: what if it is using js?
+35:37 | N S: <
+36:41 | BrayanVB: any chance you can share this example
+36:58 | Pablo C: what about your feet?
+37:12 | Poorna Raavi: like AI agents
+37:53 | bzrgrl: cpld you please share the github path to the javascript webpage scraping . Thank
+38:57 | Microsoft Reactor: http://github.com/pamelafox/personal-linkedin-agent
+39:15 | BrayanVB: thank you
+39:30 | GPS: hahah
+41:57 | Pablo C: can we define optional and mandatory elements
+44:11 | Pablo C: or we ask to github copilot ..
+47:26 | Pablo C: does it also get information from tables in a docx
+49:00 | K Rowan: How would you approach dynamically categorizing responses (e.g., food group) without a providing a specified list
+49:01 | Jorge Zúñiga: @Pablo C Pydantic optional fields
+51:20 | Kevin Kawchak: I have several API notebooks for different manufacturers, but am always troubleshooting them. It seems like chat is always faster for most tasks as I can specify for it to follow code structures
+51:52 | Leo: So for LLMs like GPT5, pre-training data from files like word/pdf first gets extacted from files and then used as training data
+53:08 | Pablo C: what would you suggest to verify how the model is doing it? I mean, something similar to document intelligence with percentages of confidence
+53:44 | Microsoft Reactor: Still have questions? Join the office hours on Tuesdays at 11 AM PT: https://aka.ms/pythonai/oh
+54:09 | Steve Wolfe: looking forward to the office hours. - thanks. :
+56:25 | Austin Audu: couldnt you just use the Azure AI Foundry for comparison
+57:22 | Sam Nageub: How do you balance flexibility (LLMs are creative) vs. strict structure (Pydantic is rigid)
+57:42 | N S: forcing a structured output generally increases the tokens being used
+58:02 | Oli Baylis: Request a confidence score to be returned by the LLM as part of the structured data
+58:54 | Sam Nageub: that was an absolutely very informative and useful session. thank you so much for your sharing your knowledge.
+58:57 | Pablo C: MIstral OCR in Azure AI Foundry is a good optio
+1:00:36 | John Cupples: numbers and music are usually saf
+1:01:30 | bzrgrl: can you ask llm to output a strcutre, sy in json, by itself, without actually providing a structure definition in the prompt
+1:01:37 | Microsoft Reactor: If you have a few moments, please fill out our Reactor Survey. We appreciate the feedback! Event ID: 26296https://aka.ms/Reactor/Survey 
+1:01:42 | Leo: property_name: Optional[str] is how you mark attributes as optiona
+1:01:52 | Microsoft Reactor: Explore the series: https://aka.ms/PythonAI/series
+1:02:23 | Kristopher Betz (kjbetz): Thanks, Pamela! Great as always
+1:02:24 | Kevin Kawchak: Thank yo
+1:02:26 | BrayanVB: Thank you!!
+1:02:27 | Rodrigo: Thank You!!
+1:02:29 | Ryan Price: Thanks from Colorad
+1:02:32 | bzrgrl: Thank you for another great session
+1:02:38 | aquarist123: Thank you that was great
+1:02:39 | Joel Muhoho: Thank yo
+1:02:43 | Austin Audu: Thank you
+1:02:45 | Peter Anny-Nzekwue: Thank yo
+1:02:47 | Pamela Fox: @Leo Optional[str] is somewhat outdated syntax, so it depends on Python version. Thats why my editor gave a warning when I started off with Optional[str]
+1:02:52 | John C: Thanks 
+1:02:54 | Leo: Thank yo
+1:03:00 | Phila Mavikane: T
+1:03:02 | Microsoft Reactor: Thanks for joining! We'll see you at the next one
+1:03:19 | Pamela Fox: @Leo So I replaced Optional[int] with int|None - both should generate the same JSON schema, I believe, but I could double check the log
+1:03:22 | Leo: Interesting, thanks for the heads u
+1:03:55 | Pamela Fox: @Leo For sure, thanks for looking it u
+1:04:00 | Pamela Fox: See you all tomorrow
