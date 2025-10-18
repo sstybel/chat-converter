@@ -1,13 +1,23 @@
 # Converter YouTube Live-Chat JSON file to Text file
 
-Usage: chat-converter.exe [--json JSON] [--output OUTPUT] [--print] [-h]
+This program converts live chat from YouTube downloaded using the **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** application.
 
-Options:
-  --json JSON           Input JSON Chat file or 'auto' to select first JSON file in
-                        current directory
-  --output OUTPUT       Output text Chat file or 'auto' to create output file with same
-                        name as input file and add .txt extension
-  --print               Print Chat messages to console
-  -h, --help            Show this help message and exit
+To download live chat from YouTube using the **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** application, call it with the parameters `--write-sub --sub-lang live_chat`. The live chat will be saved in JSONL (_JSON Lines_) format to a file with the .json extension.
 
-Copyright (c) 2025 by Sebastian Stybel, www.BONO.Edu.PL
+Sample execution of the **`yt-dlp.exe`** application downloading a YouTube recording with the best available video and audio quality and live chat:
+
+> `yt-dlp.exe -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" --extractor-args "youtube:player-client=default,-tv_simply" --write-sub --sub-lang live_chat https://link_to_the_youtube_video/`
+
+
+In this repository, I've included sample PowerShell code (`yt-down.ps1`) that downloads a YouTube recording along with a live chat saved in JSON (.json) format and converts it to a text file (.txt).
+
+**Usage:** **`chat-converter.exe`** [--json JSON] [--output OUTPUT] [--print] [--help | -h]`
+
+**Options:**
+
+* `--json JSON` - Input JSON Chat file or `auto` to select first JSON file in current directory
+* `--output OUTPUT` - Output text Chat file or `auto` to create output file with same name as input file and add .txt extension
+* `--print` - Print Chat messages to console
+* `--help`, `-h` - Show this help message and exit
+
+## Copyright &copy; 2025 by Sebastian Stybel, [www.BONO.Edu.PL](https://www.bono.edu.pl/)
