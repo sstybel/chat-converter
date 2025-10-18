@@ -1,9 +1,8 @@
-# chat-converter
-Converter YouTube Live-Chat JSON file to Text file
+# Converter YouTube Live-Chat JSON file to Text file
 
-usage: chat-converter.exe [--json JSON] [--output OUTPUT] [--print] [-h]
+Usage: chat-converter.exe [--json JSON] [--output OUTPUT] [--print] [-h]
 
-options:
+Options:
   --json JSON           Input JSON Chat file or 'auto' to select first JSON file in
                         current directory
   --output OUTPUT       Output text Chat file or 'auto' to create output file with same
