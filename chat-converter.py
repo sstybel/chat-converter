@@ -4,7 +4,9 @@ import os
 
 from sys import exit
 
-print("\n Converter YouTube Live-Chat JSON file to Text file - ver. 1.00")
+str_version = "1.01"
+
+print("\n Converter YouTube Live-Chat JSON file to Text file - ver. " + str_version)
 print(" Copyright (c) 2025 by Sebastian Stybel, www.BONO.Edu.PL")
 print("--------------------------------------------------------------------\n")
 
@@ -12,8 +14,14 @@ parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument("--json", help="Input JSON Chat file or 'auto' to select first JSON file in current directory")
 parser.add_argument("--output", help="Output text Chat file or 'auto' to create output file with same name as input file and add .txt extension")
 parser.add_argument("--print", help="Print Chat messages to console", action="store_true")
+parser.add_argument("--add-line-number", help="Add line numbers to each message in output file and console output", action="store_true")
 parser.add_argument("-h", "--help", help="Show this help message and exit", action="store_true")
 args = parser.parse_args()
+
+#args.json = ".\\chat-input.json"
+#args.output = "auto"
+#args.print = True
+#args.add_line_number = False
 
 if (args.help):
    parser.print_help()
@@ -63,6 +71,11 @@ if (args.print):
 else:
    show_console = False
 
+if (args.add_line_number):
+   add_line_number = True
+else:
+   add_line_number = False
+
 if show_console:
    print("\nChat messages:")
    print("--------------------------------------------------------------------")
@@ -74,10 +87,20 @@ with open(fn_json, 'r', encoding='utf-8') as f_json:
       l_json = json.loads(r_line)
       formated_json.append(l_json)
 
+i = 0
 with open(fn_output, 'w', encoding='utf-8') as f_output:
    for element in formated_json:
-      chat_msgs_items = element['replayChatItemAction']['actions'][0]["addChatItemAction"]['item']
+      i += 1
 
+      chat_msgs_type = element['replayChatItemAction']['actions'][0]
+
+      if 'addBannerToLiveChatCommand' in chat_msgs_type:
+         chat_msgs_items = element['replayChatItemAction']['actions'][0]["addBannerToLiveChatCommand"]['bannerRenderer']['liveChatBannerRenderer']['contents']
+      elif 'addChatItemAction' in chat_msgs_type:
+         chat_msgs_items = element['replayChatItemAction']['actions'][0]["addChatItemAction"]['item']
+      else:
+         continue
+      
       if 'liveChatViewerEngagementMessageRenderer' in chat_msgs_items:
          chat_msgs = chat_msgs_items['liveChatViewerEngagementMessageRenderer']
       elif 'liveChatTextMessageRenderer' in chat_msgs_items:
@@ -120,9 +143,14 @@ with open(fn_output, 'w', encoding='utf-8') as f_output:
             timestamp = "???"
 
       if timestamp != "???" and author != "???" and t_msg != "":
-         line_write = timestamp + " | " + author + ": " + t_msg   
+         if add_line_number: 
+            line_write =  f"{i}: {timestamp} | {author}: {t_msg}" 
+         else:
+            line_write =  f"{timestamp} | {author}: {t_msg}" 
+
          if show_console:
             print(line_write)               
+         
          f_output.write(line_write + "\n")
 
 if show_console:

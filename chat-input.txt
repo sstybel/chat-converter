@@ -1,105 +1,1007 @@
--26:36 | Austin Audu: Hi Everyone from Dallas Texa
--6:41 | Leo: Much is riding on AI. Please don't pop
--2:57 | Microsoft Reactor: We’ll begin in a few moments! Please take this opportunity to review our code of conduct: https://developer.microsoft.com/reactor/codeofconduct/
--2:30 | Pamela Fox: Welcome everyone! Streaming today from California like usual.
--1:17 | Greg D: Hello
--0:15 | Wim Thiels: he
-0:10 | Marc R: Hello from London, UK
-0:10 | Sayan Dey: Hell
-0:17 | Leo: here we go
-0:37 | Greg Peatfield: Hello from New England US
-0:38 | Gert Hector: Hej from Swede
-0:38 | NG YEW SENG: Hey I'm from Singapor
-0:43 | Microsoft Reactor: Thanks for joining! This is Anna, your producer for today joining you from Redmond, WashingtonFrom where are you tuning in
-1:02 | Peter Anny-Nzekwue: Hello from Dubli
-1:06 | Heitor Paes: hell
-1:19 | Sayan Dey: Hello from Kolkat
-1:20 | Salary Man: Missed yesterday's session, but back for today'
-1:20 | Alexia Martinez: Hello from El Salvador!
-1:46 | Microsoft Reactor: Explore the series: https://aka.ms/PythonAI/series
-1:55 | Alex Lopez: Hi, From El Salvado
-2:25 | Microsoft Reactor: https://aka.ms/python-openai-demos
-3:34 | Joel Muhoho: slides lin
-4:00 | Microsoft Reactor: @Joel Muhoho here you go! Explore the slides and episode resources - https://aka.ms/pythonai/resources
-4:00 | Marc R: @Microsoft Reactor- Anna can you please share the PDF for us to follow
-4:20 | Microsoft Reactor: You can follow along with the slides in the resources link above
-4:35 | Marc R: @Microsoft Reactor. Thanks Ann
-4:37 | Tim Mackey: Could you please share your screen at a higher resolution? Thank you
-5:33 | Jorge Zúñiga: Hola, buen día desde México!
-6:08 | Microsoft Reactor: @Tim Mackey we are sharing at 1080 - it may just be an artifact of being live! Make sure your YT settings are for highest quality playbac
-8:57 | Lakshmi M (LakshmisWork): Thank you so much for this series, it is indeed very usefu
-9:14 | GPS: hi everyone
-9:27 | GPS: ready for class #
-9:51 | Leo: Love FastAPI and Pydantic solid librarie
-9:53 | Georgian Pirvu: looks like Object-oriented programming clas
-11:04 | Kevin Kawchak: How long does it take to switch between new requests (once everything is set up)
-11:23 | GPS: @Kevin Kawchak what do you mean switch request
-13:31 | John C: The response retruned Date as Friday, was expecting to return a dat
-13:52 | Ammar Ahmed: does this work for large text (like extracting keyfields from a 10 page contract)?
-14:33 | Kristopher Betz (kjbetz): Is there a similar library for C# like Pydantic
-15:58 | Kristopher Betz (kjbetz): Disregard maybe... I thought Pydantic was making a wrapper for the structured output, looks like more of a validation library
-16:05 | GPS: @Kristopher Betz (kjbetz) isn't that sorta built into C#?
-16:16 | Edmar Souza: By structured output I was thinking in scenarios like the case where gave a input prompt I want my agent AI , answer an IAC code. fir example Terraform files and structur
-17:24 | GPS: it all comes back to json!
-17:57 | Kristopher Betz (kjbetz): What is turning model into json_schema
-18:06 | GPS: like scooby doo unmasking a ghost
-18:26 | Leo: I think YY-MM-DD is an invalid date format in Python. Y-mm-d
-18:38 | Leo: Capital M is minute
-19:11 | Kristopher Betz (kjbetz): Got it, thanks... will need to look up the way to do that with C# libraries
-21:02 | N S: you are actually very clear :
-25:34 | Kevin Kawchak: It seems like for multiple LLM manufacturers, I get back JSON for complex tasks, unless I explicitly state "Full Python Script
-25:54 | Ammar Ahmed: if certain field not found in the context, does the JSON_SCHEMA defaults to NaN (or alternative) or just fail
-27:27 | Microsoft Reactor: https://aka.ms/entity-extraction-demos
-27:30 | A F: Hi from nyc
-28:02 | Daniel: wonde
-29:23 | GPS: lo
-29:25 | GPS: just exit i
-34:48 | N S: what if it is using js?
-35:37 | N S: <
-36:41 | BrayanVB: any chance you can share this example
-36:58 | Pablo C: what about your feet?
-37:12 | Poorna Raavi: like AI agents
-37:53 | bzrgrl: cpld you please share the github path to the javascript webpage scraping . Thank
-38:57 | Microsoft Reactor: http://github.com/pamelafox/personal-linkedin-agent
-39:15 | BrayanVB: thank you
-39:30 | GPS: hahah
-41:57 | Pablo C: can we define optional and mandatory elements
-44:11 | Pablo C: or we ask to github copilot ..
-47:26 | Pablo C: does it also get information from tables in a docx
-49:00 | K Rowan: How would you approach dynamically categorizing responses (e.g., food group) without a providing a specified list
-49:01 | Jorge Zúñiga: @Pablo C Pydantic optional fields
-51:20 | Kevin Kawchak: I have several API notebooks for different manufacturers, but am always troubleshooting them. It seems like chat is always faster for most tasks as I can specify for it to follow code structures
-51:52 | Leo: So for LLMs like GPT5, pre-training data from files like word/pdf first gets extacted from files and then used as training data
-53:08 | Pablo C: what would you suggest to verify how the model is doing it? I mean, something similar to document intelligence with percentages of confidence
-53:44 | Microsoft Reactor: Still have questions? Join the office hours on Tuesdays at 11 AM PT: https://aka.ms/pythonai/oh
-54:09 | Steve Wolfe: looking forward to the office hours. - thanks. :
-56:25 | Austin Audu: couldnt you just use the Azure AI Foundry for comparison
-57:22 | Sam Nageub: How do you balance flexibility (LLMs are creative) vs. strict structure (Pydantic is rigid)
-57:42 | N S: forcing a structured output generally increases the tokens being used
-58:02 | Oli Baylis: Request a confidence score to be returned by the LLM as part of the structured data
-58:54 | Sam Nageub: that was an absolutely very informative and useful session. thank you so much for your sharing your knowledge.
-58:57 | Pablo C: MIstral OCR in Azure AI Foundry is a good optio
-1:00:36 | John Cupples: numbers and music are usually saf
-1:01:30 | bzrgrl: can you ask llm to output a strcutre, sy in json, by itself, without actually providing a structure definition in the prompt
-1:01:37 | Microsoft Reactor: If you have a few moments, please fill out our Reactor Survey. We appreciate the feedback! Event ID: 26296https://aka.ms/Reactor/Survey 
-1:01:42 | Leo: property_name: Optional[str] is how you mark attributes as optiona
-1:01:52 | Microsoft Reactor: Explore the series: https://aka.ms/PythonAI/series
-1:02:23 | Kristopher Betz (kjbetz): Thanks, Pamela! Great as always
-1:02:24 | Kevin Kawchak: Thank yo
-1:02:26 | BrayanVB: Thank you!!
-1:02:27 | Rodrigo: Thank You!!
-1:02:29 | Ryan Price: Thanks from Colorad
-1:02:32 | bzrgrl: Thank you for another great session
-1:02:38 | aquarist123: Thank you that was great
-1:02:39 | Joel Muhoho: Thank yo
-1:02:43 | Austin Audu: Thank you
-1:02:45 | Peter Anny-Nzekwue: Thank yo
-1:02:47 | Pamela Fox: @Leo Optional[str] is somewhat outdated syntax, so it depends on Python version. Thats why my editor gave a warning when I started off with Optional[str]
-1:02:52 | John C: Thanks 
-1:02:54 | Leo: Thank yo
-1:03:00 | Phila Mavikane: T
-1:03:02 | Microsoft Reactor: Thanks for joining! We'll see you at the next one
-1:03:19 | Pamela Fox: @Leo So I replaced Optional[int] with int|None - both should generate the same JSON schema, I believe, but I could double check the log
-1:03:22 | Leo: Interesting, thanks for the heads u
-1:03:55 | Pamela Fox: @Leo For sure, thanks for looking it u
-1:04:00 | Pamela Fox: See you all tomorrow
+-1:37 | @grelmedialski2241: ooo na kartkach - też dobra opcj
+-1:34 | @MaciejZaniewski: Q: czy trzeba mieć coś z wyprzedzeniem mieć otwarte/przygotować by na bieżąco robić
+-1:30 | @edytalatuszek3676: dobry wieczó
+-1:29 | @dt6610: Siemk
+-1:28 | @Wojtek00100: Cześ
+-1:23 | @rafal.krygowski: Dziń dybry :
+-1:20 | @Athariel0: dobr
+-1:20 | @Bartosz-mod: Dobry wieczór
+-1:18 | @marekgrzesik4929: cześć;
+-1:17 | @pythonowy_gość: xdd
+-1:16 | @hornet2589: dzień dobr
+-1:15 | @MasterofDeath431: Cześ
+-1:14 | @TigiLion-to-ja: Hejka
+-1:13 | @SekurakTV: @abojaniewiem plan yl taki by szkolenie nazwać Arkana Pythona z Czarodziejem Gynvaelem i dać Gynowi filtr Gandalf
+-1:11 | @axen4555: Wita
+-1:09 | @RezyserKinaAkcjii: he
+-1:07 | @TravelDiving: Czesc :
+-1:05 | @izabelarozej9872: he
+-1:05 | @lucypherus81: he
+-1:02 | @m7355: Cześ
+-1:00 | @damiana.9544: Dobry wieczó
+-1:00 | @ParadiseAix: 2.00 a
+-0:51 | @rosetnebula: he
+-0:50 | @maciejrybicki8905: Q Kiedy start 
+-0:46 | @Mylus69: Cześ
+-0:44 | @begrael: Cześć
+-0:43 | @l4mero: siem
+-0:43 | @krystiankrywosz3787: Hej
+-0:40 | @SekurakTV: za chwil
+-0:39 | @axen4555: można link do discorda
+-0:38 | @jakubwartenberg: @SekurakTV jeszcze daj znac czy nagranie bedzie dostępne już dzis po webinarze czy się dłużej będzie generować
+-0:37 | @michacesarczyk7783: Siemk
+-0:37 | @Randerro: dzień dobry :
+-0:34 | @PrzemysławKosobucki: Dobry wieczó
+-0:32 | @to-nie-idkfa: Chcemy czarodzieja Gynvaela!
+-0:31 | @robertgumul1771: miałem rozmowe kwalifikacyjną kiedyś na kartce dali 3 A4 kodu kazali szukać błędu ;
+-0:29 | @andrzejbajguz2848: Dobry wieczó
+-0:28 | @zakensik: dobry wieczó
+-0:26 | @KamilaNeko: hejo :
+-0:20 | @paulinapierscionek298: he
+-0:19 | @grzegorzgrabowski1551: Cześ
+-0:18 | @shao_may8813: Cześć :
+-0:17 | @bernardukasik1101: siemk
+-0:09 | @tomgol6062: Dobry wieczór :
+-0:09 | @IRzeee: siema (
+-0:06 | @SekurakTV: @jakubwartenberg tak, od razu pod tym samym linkie
+-0:06 | @mwalentyn: dobry wieczó
+-0:05 | @annaslabosz9261: Cześć Wszystkim
+-0:02 | @gracjansuchocki5: hall
+-0:02 | @adamn3306: Dobry wieczó
+0:10 | @zorro5765: Cześ
+0:10 | @Bartosz-mod: Link do Discorda: https://discord.gg/v5WNSD5u
+0:13 | @nataliaguszek5918: Hej
+0:16 | @sarq1: Pyton w szwajcarskim sejfie
+0:17 | @ajaktamkorniszo2745: straszą człowieka muzyką
+0:18 | @Henry-k8x3c: Q: czy cos trzeba zainstalowac teraz przed transmisją 
+0:22 | @jakubwartenberg: dzięki wszystko jasne!!
+0:23 | @Aleksandra-jv9vm: print("dzień dobry"
+0:24 | @mjr_zan: jest muz
+0:32 | @SekurakTV: @Henry-k8x3c ni
+0:33 | @nataliak404: cześ
+0:33 | @Krzysztof.Radzikowski: Br
+0:39 | @marekostrowski1919: jest muza to jest poważni
+0:46 | @ukasztulibacki6268: cześ
+0:53 | @Bartosz-mod: Nagranie bedzie od razu pod tym samym linkiem
+0:55 | @MonciakTT: zaczyna się!!! :
+0:56 | @TheReleth: siemandero ;
+0:56 | @michalsikorski8385: Dobry wieczó
+1:00 | @GynvaelColdwind: Na dzisiaj nic nie musicie jeszcze instalować  Rozsiądźcie się wygodnie i posłuchajcie :
+1:03 | @missygnalek: Dobry wieczó
+1:07 | @annaemolkadebicka2629: hej
+1:08 | @begrael: @Aleksandra-jv9vm +
+1:16 | @annaslabosz9261: będzie kotek ;-
+1:16 | @Gazetqa: he
+1:18 | @lukasz_misiek: Cześć, dobry wieczór :
+1:20 | @Clarify4: he
+1:21 | @LeFleur666: wieczó
+1:23 | @ZCJGitara: witam serdeczni
+1:32 | @psvpl: Gynvael? To jakiś elf? :
+1:33 | @photo67: Cześ
+1:33 | @jacekkotarski1501: cześ
+1:43 | @piotrnalenc3355: Witam wszystkich
+1:48 | @mas331: Dobry wieczór
+1:48 | @LukasR1: Wita
+1:51 | @agnieszkas5411: dobrz
+1:52 | @Gazetqa: tak słychac i widać :
+1:52 | @ukasztulibacki6268: jest o
+1:52 | @to-nie-idkfa: jest o
+1:52 | @pawemateja1001: O
+1:53 | @Boguslaw-l8q: słychać i wida
+1:53 | @photo67: Jest gi
+1:54 | @Kubson1605: Jest o
+1:54 | @Clarify4: jest dobrz
+1:54 | @rosetnebula: widać i słycha
+1:55 | @peszek7120: dobrze jes
+1:56 | @kingak4032: slychac, wida
+1:56 | @ajaktamkorniszo2745: słychać obydwóc
+1:57 | @pythonowy_gość: git jes
+1:57 | @annaslabosz9261: Widać, słychać i ...
+1:57 | @mariusztrzcina-szrek9885: jest o
+1:57 | @MonciakTT: słycha
+1:57 | @Bartosz-mod: widać,słychać ;
+1:57 | @marekostrowski1919: widać słycha
+1:58 | @MrZaparcik: jest gi
+1:58 | @mariawisniewska3522: slychać
+1:59 | @JeremiPiela: Cześ
+1:59 | @tomaszstec5672: słychać i wida
+2:00 | @edytanowicka2635: jest supe
+2:00 | @andrzejbajguz2848: O
+2:01 | @BeavisPL: wszystko O
+2:01 | @MonciakTT: i widac :
+2:03 | @cezaryzahorowski8481: jest OK widać i słycha
+2:03 | @maciejjanicki5893: słychać głośno i wyraźni
+2:05 | @marekciesluk1546: Widać i słycha
+2:05 | @przemyslawszal8459: jest git, widac i slychac
+2:07 | @tomitomi2251: cześć wszystki
+2:07 | @mattogameplay: jest dobrz
+2:09 | @piterson6851: słychać widać i czuć ;
+2:12 | @tprok2012: O
+2:13 | @sarq1: A może od takiego znaku
+2:14 | @kimi_alone: uuu, to są 3 dni a nie 4?
+2:18 | @rozko2653: widać i słychać ;
+2:18 | @TomaszRomanowicz: słychać i wida
+2:38 | @BestClashRoyalePlayerEver: dzień dobr
+3:05 | @itlife3261: sieman
+3:10 | @Lopim_Official: wita
+3:24 | @BestClashRoyalePlayerEver: jak zadawać pytania
+3:26 | @Annopol1306: hej, gdzie jest link do discorda
+3:29 | @dzieckoboba8723: Słychać, słycha
+3:30 | @michaprv8819: O BORZE ale jestem podekscytowan
+3:30 | @marekostrowski1919: Juz sa 4 ;
+3:40 | @itlife3261: lecimy żeby do 21 skończyć
+3:53 | @psvpl: Q: Czy Gynvael to elfie imię
+4:04 | @sarq1: to z Wiedźmin
+4:05 | @SekurakTV: Discord: https://discord.gg/v5WNSD5u
+4:05 | @SekurakTV: Discord: https://discord.gg/v5WNSD5u
+4:16 | @Adrian-jt5hp: U Czy live będzie nagrywany/dostępny do obejrzenia później
+4:24 | @Bartosz-mod: Link do Discorda: https://discord.gg/v5WNSD5u  gdyby ktos potrzebowal ;
+4:34 | @SekurakTV: @Adrian-jt5hp będą nagrani
+4:35 | @pythonowy_gość: @Adrian-jt5hp ta
+5:08 | @MonciakTT: a to tak widziałem od początku terminy :
+5:45 | @zenongrzadziel2054: Dzień dobry
+5:53 | @maciejnowak3264: Cześ
+6:01 | @super_staszek: nic
+6:06 | @JanzChrzanowa: dziękuj
+6:06 | @BestClashRoyalePlayerEver: poland can indeed into spav
+6:07 | @70norbert: Zadania domowe są nielegalne w Polsc
+6:12 | @NuoDevix: html for babies było czytane od początku :
+6:13 | @AdamP-n3b: Q:Zbieramy drużynę pierścienia
+6:28 | @sebastiandudzinski6538: Ostatnio mignęła mi seria Paged Out. Ciekawa seri
+6:32 | @to-nie-idkfa: https://pagedout.institute/
+7:00 | @photo67: @70norbert
+7:11 | @zygzaketlwsl: "Całkiem nieźli" == ścisła światowa topka ;
+7:15 | @marekostrowski1919: Nauczymy się hackować? :
+7:25 | @sarq1: Visual studio - (bezpłatna wersja) communit
+7:34 | @Kordi_KvD: Q Czemu Python ? :
+7:36 | @SecureIT-jk8yo: Dragon nie rozpracowalo przypadkiem case NEWAGU 
+7:39 | @PrzemysławKosobucki: albo Visual Studio Cod
+7:46 | @Bartosz-mod: @marekostrowski1919 emacsem przez węża ;
+7:48 | @PrzemysławKosobucki: lub PyCharm Communit
+8:07 | @sarq1: @SecureIT-jk8yo Tak
+8:10 | @bogdanbanasiak4333: Discord: Nie można zaakceptować zaproszenia. Dlaczego
+8:51 | @SekurakTV: @bogdanbanasiak4333 spróbuj z innej przeglądark
+8:52 | @Bartosz-mod: https://discord.gg/CPkgucED  discordzik moze to zadziala jak komus tamto nie dziala ;
+8:53 | @axen4555: @bogdanbanasiak4333 chyba musisz być zalogowan
+8:55 | @Gazetqa: @czy bedzie nagranie ze szkolenia, aby można było do niego wrócić
+9:01 | @itlife3261: 3h za długo zdecydowanie..
+9:04 | @Bartosz-mod: bedzie nagrani
+9:08 | @Bartosz-mod: pod tym samym linkie
+9:10 | @nataliak404: @Gazetqa jest to info na slajdzie obecnym ;
+9:14 | @to-nie-idkfa: @Gazetqa bedzie :
+9:29 | @magalia7882: Q Ile czasu dziennie warto przeznaczyć na ćwiczenia, jeśli się nie programowało? Zastanawiam się, jak to połączyć z prac
+9:32 | @photo67: O supe
+9:37 | @jromtb: Q: Czy jak ktoś programuje zawodowo ale nie w Pytonie to będzie się nudził
+9:37 | @Tomekrusz: Q Uwazasz ze w ile czasu idzie sie nauczyc Pythona od zera
+9:43 | @BestClashRoyalePlayerEver: do rzecz
+9:44 | @annaslabosz9261: Super :D
+9:54 | @bogdanbanasiak4333: jestem zalogowany, drugi link nie dział
+10:10 | @Annopol1306: czy czat też jest nagrywany lub można jakoś go potem podejrzeć?
+10:29 | @rozko2653: Za 3h planuję już spać
+10:32 | @nicoargentati8027: tak,jest nagrywan
+10:39 | @zygzaketlwsl: @annaslabosz9261 czat co do zasady powinien być dostępny późnie
+10:40 | @mateuszswiecki2596: Q arkana-pythona to właściwy kanał pod sekurakiem
+10:45 | @Krzysztof.Radzikowski: czat będzie z znagarniem dostępny na YT na tym samym adresi
+10:54 | @abojaniewiem: Q: Jak znajdujesz czas na prowadzenie kursu po swojej własnej pracy
+10:56 | @L0n6J0hnS1lv3r: Cześ
+11:01 | @zygzaketlwsl: @mateuszswiecki2596 kanał #wstep-prog-pytho
+11:10 | @giercowarek: czy tylko mi sie wiesza wideo
+11:17 | @DteamMachine: super, ze beda mp4. dziekuje :)
+11:54 | @marcelfaryna3963: @giercowarek mi się nie wiesz
+12:06 | @GynvaelColdwind: da21205d5a11134
+12:12 | @giercowarek: ok , dzieki
+12:15 | @marekostrowski1919: Q: Można wkleić url na czat
+12:21 | @rozko2653: supe
+12:31 | @marekostrowski1919: @giercowarek nie tylko T
+12:34 | @zygzaketlwsl: https://cwiczenia.hackarcana.pl/
+12:42 | @r011and: adres strony popros
+12:53 | @nataliak404: video u mnie się nie wiesz
+13:06 | @r011and: jest, dziekuj
+13:49 | @mentostheundying: strona siadła :
+13:51 | @FiotrPraczewski: nie idzie rejestracj
+13:53 | @jakubkarasiuk: pisze ze link wygas
+14:06 | @jakubkarasiuk: na dis
+14:17 | @rozko2653: strona chyba kaput. Nie mozna się zarejestrowa
+14:22 | @shivverpl: Strona nie działa z jakiegoś powodu, pusta jest
+14:27 | @mateuszswiecki2596: ładny DDoS poszedł :
+14:30 | @KacperGrandCzech: yup padł
+14:32 | @NuoDevix: Q: Czy za jakiś czas znowu juniorzy będą ptorzebni czy jeszcze mniej niż teraz
+14:34 | @Klakocik: Strona spadła z rowerka
+14:38 | @nerdsinlaw: spadl
+14:39 | @gokuworkout3675: Q: 10h pewnie wystarczy by ogarnąć minimum do pisania skryptów do automatyzacj
+14:43 | @annagierula5740: brawo my, ddos zrobiliśm
+14:44 | @rozko2653: strona siada jakby linka wysłał ML
+14:48 | @robertmodret9330: ale strona teraz padła :
+14:51 | @rozko2653: lo
+15:03 | @robertmodret9330: DdoS 
+15:13 | @marekostrowski1919: Q: Jestem testerę i uczę się automatyzacji. Czy myślisz, że kurs da mi solidne podstawy do tego
+15:15 | @zygzaketlwsl: ładnie to tak ddosować? :
+15:24 | @Bartosz-mod: jak nie Blika to Gyna DDoSuja ;
+15:31 | @3ci_music: jaki ddos? testy wydajności :
+15:33 | @rozko2653: ładnie, ładnie bo legalnie ;
+15:35 | @mierona: Q: skoro na początku było o książkach, jakieś polecane książki na początek, w tym Twoje
+15:37 | @mateuszswiecki2596: i wszyscy do więzienia za hakerke
+15:47 | @deropl2667: Czy kierunek pytorch to tędy
+15:47 | @MonciakTT: czekajka przy rejestracji by się przydała by było wiadomo że coś się dzieje po kliknięciu :
+15:54 | @robertmodret9330: byleby laptopy nam tam dali :
+16:13 | @pythonowy_gość: To się nazywa dobry zespół ctf-ow
+16:22 | @itlife3261: Q czy w przypadku sieciowców którzy głównie posługują się ps jest sens uczestniczyć
+16:46 | @mateusz6517: Ja właśnie spotkałem się z taką ścianą, ale potem wylądowałem na stanowisku QA i pokochałem szukać błędów x
+17:05 | @Mylus69: Q na co dzień instaluje kody aplikacji czy ten kurs mi pomoże zautomatyzować czynności
+17:19 | @User-93hd92nslp1: zastanawiam się nad wyborem profilu do liceum, jest tu ktoś, kto jest/był na rozszerzonej informatyce który powie czy było/jest trudno?
+17:28 | @marekostrowski1919: @mateusz6517 QA to taki pomost między programistą, końcowym userem, a biznesem :
+17:46 | @ajaktamkorniszo2745: zaraz będzie pytanie, czy wyleczy depresję x
+17:51 | @ppb000: Troche mi szkoda młodych adeptów programowania patrząc co się dzieje na rynku gdzie jest ogromny shift na AI i bynajmniej nie mam na myśli Artifical Inteligence 
+17:58 | @veritaxsocial: Z Gynvaelem zawsze warto niezależnie od poziom
+18:17 | @NuoDevix:  vibesor
+18:46 | @PrzemysławKosobucki: "User-93hd92nslp1 to zależy, mój syn jest na rozszerzeniu i jeśli radzisz sobie z programowaniem to nie bedziesz mieć problemu. Zależy też od szkoł
+19:08 | @slickdamage: To ja musze przewrotnie zapytac, czy nauka takiego jezyka jak python nie traci sensu, jezeli wchodza takie rozwiazania jak copilot. A pythona uzywam do zadan pomocniczych na codzien programujac w c++
+19:21 | @exeriON-dev: Q kod do strony moge prosic raz jeszcze
+19:35 | @robertmodret9330: Q: A kurs, praktyczny python gdzie nas zaprowadzi?
+19:36 | @gokuworkout3675: Q: Patrząc z perspektywy Twojego doświadczenia mniej więcej na jakim poziomie potrzeba umieć programować dla DevOpsa/SRE
+19:39 | @magdalenanowakowska5263: o rany, znowu reklama tzw. AI :
+19:48 | @jromtb: da21205d5a11134
+19:49 | @User-93hd92nslp1: @PrzemysławKosobucki dziękuje bardzo, właśnie radze sobie z programowaniem oke
+19:53 | @jromtb: kod do stron
+19:58 | @jromtb: da21205d5a11134
+20:11 | @jespers6478: Q: Czy bedziemy poruszac tez rozne biblioteki/frameworki do pythona, jak np. Flask
+20:29 | @HanSor89: Q: z powodu zdrowia musze zmienić branże, czy kurs pythona i AI to bedzie dobry kierunek zeby wejść w IT
+21:16 | @naw4883: No i sen o byciu programistą prysną
+21:18 | @Athariel0: Q: Na jakim poziomie trudności by Pan określił napisanie prostej bazy danych która robi call do API, oraz napisanie datascrubbera, który np. prześledzi ceny konkurencji na Allegro
+21:18 | @ZebraYoga: A po Python Master gdzie sie laduje na wykresie z Celem? 
+21:27 | @Anna-om7te: Q oprocz programowania jest analiza danych! numpy matplotlib i tego typu bibliotek
+21:33 | @dragon121a: tylko mi laguj
+21:53 | @grelmedialski2241: Q: czy do systemu z nowszymi wersjami Py da się doinstalować starą wersję, np 3.7, żeby mieć kompatybilność z innym starszym programem
+22:06 | @mierona: Nie laguje, takze chyba cos u Ciebie @dragon121a
+22:11 | @Elfren95: Trudno się nie zgodzić, wcześniej parę dni pisania, kilka godzin debbugingu, teraz kilka minut pisania i parę dni debbugingu :
+22:34 | @Samochody_RC: tańczę marchewkę
+22:36 | @rozko2653: chyba tak @dragon121
+23:21 | @Henry-k8x3c: Q: jaką wersję pytona zainstalować pod win 1
+23:22 | @SimiForKing: @grelmedialski2241 sudo apt install python3.
+23:24 | @PinguVanEx: Konteneryzacja projektu duzo ulatwia, jezeli chodzi o trzymanie wersj
+23:28 | @adampieklowski6274: aj-wa
+23:32 | @krzysztof4312: Gentoo slotuje wersje ;
+23:44 | @Elfren95: venv mocno pomaga :
+23:56 | @marekostrowski1919: Jest rolnikiem, któremu nikt nie pogratulował na urodzin
+24:23 | @SimiForKing: @Henryk-k8x3c najnowszą, Python 3.14, ale starsze też będą ok
+24:59 | @magdalenanowakowska5263: @Elfren95 weeks of programming can save you hours of planning ;
+25:24 | @rozko2653: a jaką apkę dokłądnie najlepiej ściągnąć? i skąd? zebu było legalni
+25:48 | @NuoDevix: a czy z AI da się serio czegoś nauczyć głębiej w języku czy ogólnie koncepcyjnie
+26:07 | @psvpl: @rozko2653 Apkę do czego
+26:14 | @marekostrowski1919: Halucynacje - stanie na głowie, żeby tylko powiedzieć, co chcesz usłysze
+26:14 | @damianb-ski1145: Q: pomimo , że podstawy, to czy parę zdań na temat jak realizowany jest multithreading
+26:28 | @rozko2653: do programowania w phytoni
+27:06 | @psvpl: @rozko2653 To nie jest kurs dla Ciebie w takim raiz
+27:15 | @krzysztof4312: stackoverflo
+27:21 | @Pawel-bj6qy: Cześ
+27:30 | @rozko2653: zaczynam od zera. Po to chyba to jest nie? :
+27:40 | @rozko2653: to szkolenie znaczy się..
+27:56 | @psvpl: chyba nie od aż takiego zer
+27:58 | @wojtek0993: skoro od zera to siedz i sluchaj 
+28:01 | @PrzemysławKosobucki: @rozko2653 Visual Studio Code / PyCharm Community
+28:05 | @PinguVanEx: PyCharm wystarczy
+28:36 | @rozko2653: @PrzemysławKosobucki dziękuję za pomoc
+28:50 | @Elfren95: @magdalenanowakowska5263 true, but Codex makes its even faster  Off course if you have some knowledge, as you said :
+29:01 | @rozko2653: @PinguVanEx dziękuję
+29:30 | @BestClashRoyalePlayerEver: here we g
+29:37 | @nerdsinlaw: jak w cheatowaniu i spojlerach gier ;-
+29:49 | @PinguVanEx: Q Czy warto na poczatku wchodzic w jakies frameworki np. FastAPI, Django
+30:16 | @ParadiseAix: @rozko2653 Visual Studio Code bedzie najwiecej materialow pomocnych ajk zainstalowac i jak uzywac
+30:23 | @SekurakTV: Pamietajcie też, że będzie sesja QnA i że można skorzystać z kanału na Discordzie :
+30:48 | @rozko2653: @ParadiseAix dziękuję!
+32:24 | @dragon121a: do której około to będzi
+32:24 | @PinguVanEx: tfu tfu j
+32:35 | @mjr_zan: 2
+32:40 | @PrzemysławKosobucki: zgadzam sie @PinguVanEx
+32:43 | @dragon121a: dzięk
+33:03 | @tomaszczerwinski1974: 3/4 odpadnie na pełtli w pętli :
+33:08 | @magdalenanowakowska5263: potrafiąc programować wystarczy sie douczyć języka? powiedzcie to HRówom
+33:15 | @piterson6851: dawaj mięs
+33:38 | @PinguVanEx: @piterson6851 to jest mieso, w koncu to wstep do programowani
+33:58 | @nataliak404: "HRówy" nie rekrutują, od używania sformułowania "rekrutywka" również prosiłabym się powstrzyma
+34:17 | @NuoDevix: mięso jeszcze nadejdzie spokojnie, jeszcze będzie ciekawie, to wstęp :
+34:26 | @veritaxsocial: trzeba rozbijać na mniejsze kroki dotąd aż AI będzie w stanie bezbłędnie pomóc z każdym :
+34:31 | @magdalenanowakowska5263: nie, one tylko przekierowywują cv do kosz
+34:53 | @y3rzyk: copilot ma problem z programowaniem  w powershelu robi mi w kółko te same błedy no nie da rady wypluc poprawnego kodu :
+34:55 | @NuoDevix: syntx suga
+35:29 | @rozko2653: Sprobuj Perplexit
+36:15 | @NuoDevix: tylko Claude do kodowani
+36:35 | @Elfren95: ważne żeby jak najszybciej wejść w obiektówkę, mocno pomag
+36:50 | @NuoDevix: pamiętam hah, obawy o kompilator, czy muszę umieć optymalizować kod niskopoziomow
+37:42 | @robtrzci4365: matematyka to najtańsza forma zorientowania umysłu na rozwiązywanie problemó
+37:50 | @piterson6851: q można hakować w pythonie 
+38:22 | @BestClashRoyalePlayerEver: q a na macu
+38:44 | @jakubwartenberg: no właśnie co z mackiem :
+38:49 | @nataliak404: @BestClashRoyalePlayerEver a na macu odpalasz terminal, jedziesz z komendą i hej
+38:53 | @psvpl: na Macu pewnie brew install pytoh
+39:01 | @BestClashRoyalePlayerEver: k
+39:10 | @donio4: albo skorzystać z uv i venv
+39:40 | @marcinmisiak4357: na macOS u mnie jest zainstalowany domyślnie % python3 --versionPython 3.9.
+39:41 | @niebieskimonsterek8774: Q mozna korzystac z pythona online czy trzeba instalowac
+39:55 | @jakubwartenberg: @psvpl zgadza się
+39:55 | @Elfren95: można jeszcze się z condą bawić jeśli chce się mieszać wersj
+40:07 | @marekostrowski1919: Q: Czy VSC wystarczy do naszych ćwiczeń, czy jednak nacisk na konkretny ide
+40:16 | @Krzysztof.Radzikowski: zamaist condy uzywajcie UV
+40:51 | @nataliak404: zacznij od sprawdzenia, czy przypadkiem już go nie masz: python3 --versi
+40:53 | @BestClashRoyalePlayerEver: homebrew mi oszalał x
+41:14 | @ukaszukasz7059: w Macu nie serwuja pytonów tylko wołowin
+41:28 | @marcinmisiak4357: @BestClashRoyalePlayerEver co ci się dzieje z brew
+41:31 | @Randerro: Google Colab też niezł
+41:36 | @begrael: Ta, Mac widział wołowin
+41:52 | @BestClashRoyalePlayerEver: @marcinmisiak4357 chwila już dział
+42:57 | @BestClashRoyalePlayerEver: q idle'a włączyć
+43:54 | @nataliak404: notepad++! <
+43:54 | @NuoDevix: a co z workspaces
+44:04 | @psvpl: #teamNeovi
+44:22 | @3ci_music: vim
+44:34 | @przezerzet: Q: jaki edytor na początek polecasz? :
+44:35 | @Elfren95: VS code jest o tyle spoko że masz mini tutorial na początk
+44:40 | @BestClashRoyalePlayerEver: q które z nich działa na mac
+44:50 | @nataliak404: @BestClashRoyalePlayerEver każd
+44:53 | @radekjanik2657: Q: czemu nie ma vima? :
+45:04 | @maciejjanicki5893: pracujcie na tym co wam najlepiej odpowiad
+45:16 | @3ci_music: @radekjanik2657 jak nie ma? :
+45:17 | @sebastiandudzinski6538: Przecież jest vim, pod notepade
+45:19 | @PinguVanEx: @radekjanik2657 jest, na dol
+45:33 | @radekjanik2657: A, zwracam honor - uf
+45:46 | @tomaszczerwinski1974: jak na komodorku <
+45:56 | @Vatharian: Jakiś wariat zrobił cały workflow do uzywania mspaint jako IDE..
+45:56 | @psvpl: C
+45:58 | @amkair: Q a co polecisz z edytorów online?
+46:04 | @PinguVanEx: z tego co widze, to czy na czacie sa osoby ktore nigdy nie programowaly
+46:21 | @psvpl: @PinguVanEx na pewno jest jedn
+46:33 | @dragon121a: j
+46:39 | @nataliak404: no to dwi
+46:39 | @KamilaNeko: ja tez nigdy
+46:46 | @nataliak404: trzy :
+46:48 | @RandomDude_mi6: codium, nie vs code, proszę
+46:49 | @BestClashRoyalePlayerEver: hell yeah nołtpa
+46:57 | @Elfren95: warto też zwrócić uwagę że pycharm służy głównie do pythona, vs code jest bardziej uniwersaln
+47:15 | @krolikzbrowcem: wygląda jak fork vsc :
+47:21 | @Vatharian: ja w Borland Pascalu 5, więc nie wiem czy się liczy X
+47:31 | @lukasz_misiek: Q: a co myślisz o Anaconda?
+47:36 | @danielszarynski7483: podobno jupyter (notebook) pozwala na fajne debugowanie
+47:52 | @eniiu704: bedzie zapis 
+47:57 | @Rumakownie: Q a ten kursor jest bardzo płatny
+48:05 | @TheBisqp: ja też nigdy, Troche na studiach jakieś podstawy, ale to kupę lat tem
+48:21 | @Krzysztof.Radzikowski: cursor od 20 dolarow do kilku tysiecy  zalezy ile uzywasz
+48:26 | @rozko2653: a ja pascal i c++ - wieki tem
+48:34 | @nerdsinlaw: wida
+48:35 | @artur3481: jest o
+49:12 | @sarq1: Używanie include w C++ to pójście na łatwizn
+50:03 | @PrzemysławKosobucki: @sarq1 no tak, lepiej wszystko na zwyklym iostreamie robic samemu, szczegolnie fstreama latw
+50:05 | @przemysaw6012: widać dobrze :
+50:26 | @magalia7882: Q co to jest konsola i czym się różni od środowiska? I gdzie się pojawiają odpowiedzi, np. gdy wpiszemy Print "Cześć" to gdzie się pojawia odpowiedź "Cześć"
+50:28 | @wqrwek: hahaha Mistrz "kto by czytał" x
+50:36 | @piterson6851: bedziemy się uczyc na tym kursie jak hackowac w pythonie
+50:55 | @BestClashRoyalePlayerEver: jak mam uruchomić kod z notepada++. emuluję notepada przez whisk
+51:00 | @sarq1: @PrzemysławKosobucki to jest podpucha dla prowadząceg
+51:07 | @dragon121a: mi troche laguj
+51:16 | @nalesnim: Q do pythona lepszy vscode czy pycharm
+51:25 | @Vatharian: kto by czytał to 99% pebkac'a. Przez lata w pracy w supporcie, to było podejście do pacjenta i przycztanie dla niego komunikatu, który miał na ekranie
+51:41 | @sarq1: to zależy, co bardziej Ci odpowiad
+51:56 | @radekjanik2657: Q: czy jakis debugger pythona w terminalu?
+52:14 | @maciejjanicki5893: @piterson6851 a jaki jest tytuł szkolenia 
+52:15 | @BestClashRoyalePlayerEver: q vs code jest darmowy
+52:16 | @marekostrowski1919: @PijanyLowca pycharm jest dedykowany do Pythona, więc chyba w nim dobrze, ale jeśli już używasz vsc i znasz, to spokojnie możesz jecha
+52:18 | @mariuszjarosz: Q 3 słowa zastosowanie pythona
+52:25 | @AdamRaciecki-p2w: Pycham i hej
+52:30 | @Elfren95: @BestClashRoyalePlayerEver vs code jest fre
+52:38 | @marekostrowski1919: @BestClashRoyalePlayerEver jes
+52:43 | @BestClashRoyalePlayerEver: nic
+52:43 | @GeraltWitcher11: Do której
+52:53 | @KristoferVinc: Q: A google colab
+53:03 | @michaprv8819: Q czy również Ty będziesz prowadził inne lub rozszerzone kursy na sekuraku
+53:04 | @PinguVanEx: Q Czy uwazasz, ze Python jest przyszlosciowy, poniewaz nie jest to nowosc ale duzy hype przez AI (wydajnosc python tez nie jest super
+53:11 | @Henry-k8x3c: Q: skad pobrać curso
+53:12 | @Vatharian: Shift + a, KOPYTKO
+53:42 | @radekjanik2657: @Henry-k8x3c wpisz sobie cursor download i dostaniesz na tacy
+53:45 | @Anna-om7te: impreza sie zaczyna
+53:57 | @ukasztulibacki6268: @Henry masz oficjalną stron
+54:00 | @Militaryhighcommand: Mam nadzieje że będziemy korzystać z PyCharm bo jednak on jest jednym z popularniejszych
+54:06 | @Henry-k8x3c: a jest bezpłatny bo ktos cos pisal ze platn
+54:12 | @Henry-k8x3c: curso
+54:25 | @SimiForKing: @michaprv8819 Gyn ma dużo szkoleń z Sekurakie
+54:26 | @Militaryhighcommand: Jak będzie jakiś edytor tekstu to poziom naprawde mizerny
+54:30 | @radekjanik2657: @Henry-k8x3c polecam oficjalna strone po informacje 
+54:30 | @ukasztulibacki6268: Gyn pisze w sublime, na ilu szkoleniach u niego byłem wszystki w sublime szł
+54:39 | @adama2097: Niezła nuta :
+54:40 | @kimi_alone: na codzien uzywac takiego matrixowego motywu w terminalu to trzba siedzieć te 35 lat w programowaniu jednak :
+54:56 | @SimiForKing: @PinguVanEx tak, dużo ludzi go wykorzystuje, trwają pracę nad JITem i GILem żeby go trochę przyspieszy
+55:02 | @ukasztulibacki6268: cursor nie wiem, jak na linux siedze w vim i sublime, a na windows w pychar
+55:04 | @Marynarzx: he
+55:15 | @ukasztulibacki6268: wersja community jest darmow
+55:19 | @Marynarzx: małe spóźnienie, ale jeste
+55:26 | @piterson6851: ale mozgotrzep chamskie techn
+55:55 | @kimi_alone: sądząc po muzyce 10 minut przerwy na cyberpunka ^.
+55:57 | @GrzechuJam: jakie chamskie, dobre biciw
+56:07 | @PinguVanEx: @SimiForKing dzieki za info, bo wlasnie jestem tutaj z ciekawosci o Python (moze 3 softy napisalem w nim) i jak cos ma dzialac szybko to biore jednak G
+56:08 | @marekostrowski1919: Trochę jak z jakiejś platformówki na Sega Genesi
+56:10 | @BestClashRoyalePlayerEver:  jak odpalić skrypt z pythona w v
+56:36 | @ukasztulibacki6268: się Państwo słuchacze Tomkowi narażają ;
+57:10 | @jromtb: Q: Będzie coś o samym języku Python - co to za typ języka i jakieś porównanie do innych (Java, C, C++) czy od razu lecimy z pisaniem kodu
+57:33 | @ukasztulibacki6268: @BestClashRoyalePlayerEver a w czym go pisales? kliknij prawym otwórz w vs na window
+57:37 | @SimiForKing: @PinguVanEx Python to po prostu wygodny język programowania i w nim się fajnie pisze, ma bogatą bibliotekę standardową, nie męczysz się z deklaracją typów, dobry do pisania krótkich kodó
+58:12 | @SimiForKing: @jromtb będzi
+58:26 | @MPKiller545: a dzień dobry, jeszcze w autobusie, ale może zdąże jeszcze na live ;
+58:48 | @jromtb: ok
+59:03 | @PinguVanEx: @SimiForKing powiem, ze jak 1 raz z nim mialem stycznosc to wygladal mi na taka zabawke w porownaniu z np. C#, Java. Typowanie ma akurat duze plusy. Jestem ciekawy jak sie rozwinie kur
+59:03 | @MPKiller545: rząd już shackowany? ;
+59:16 | @nerdsinlaw: z przerwa w OSINT przerwa co do minuty ;-
+59:17 | @przemysaw6012: @Marynarzx czekaliśmy :
+59:27 | @PinguVanEx: Q Czy Python ma jakis okreslony paradygmat programowania
+1:00:03 | @SimiForKing: @PinguVanEx rozwinie się, to jest mocne szkolenie, jak każde od Gyn
+1:00:41 | @nerdsinlaw: @ukasztulibacki6268 sztuki nie rozumieja  ale gorezej.. na OSINT2.0 ktos napisale ze muza mu "NIE LICUJE" ;-
+1:01:16 | @SimiForKing: @PinguVanEx możesz pisać strukturalnie, możesz obiektowo, ale Python jest do bólu obiektowy, wszystko oprócz słow kluczowych jest obiektem, bedzie o tym wspominan
+1:01:20 | @ukasztulibacki6268: hahah
+1:01:23 | @nerdsinlaw: znany ktoś ;
+1:01:47 | @begrael: Na początek proponuję zainstalować sobie anakondę. Ma pythona, jupitera i spydera - proste IDE na początek aby zrozumieć nieco interface IDE. Potem PyCharm, bo jak ktoś nowy to zobaczy, to rzuc
+1:02:08 | @PinguVanEx: @SimiForKing a w samym Py dlaczego spotykam klase w klasie? to mnie bardzo zdziwil
+1:02:12 | @Krzysztof.Radzikowski: anaconda to overkill na poczatek 
+1:02:15 | @ukasztulibacki6268: o gustach sie nie dyskutuje, zawsze można w czasie przerwy wyciszyć lub od komputera wsta
+1:02:24 | @BestClashRoyalePlayerEver: ja bym chciał się tu nauczyć jak zrobić banalną platformówkę
+1:02:38 | @Elfren95: wystarczy ven
+1:02:39 | @KrzysztofLeśniak-r2w: a anacondę też instalujemy ze sklepu
+1:02:54 | @PinguVanEx: @BestClashRoyalePlayerEver to lepiej C# i Unit
+1:03:13 | @begrael: @KrzysztofLeśniak-r2w z ich stron
+1:03:24 | @ukasztulibacki6268: @nerdsinlaw no to się dość sztywne towrzystwo na OSINT trafiło bo nie syłszałem zeby ktoś narzekał na muzyje Tomk
+1:03:25 | @Marynarzx: czy to szkolenie jest dla osób początkujących czy dla bardziej zaawansowanych
+1:03:36 | @YourYerbaMate: z anacondy nie skorzystasz bez licencji w korpo, z pycharma teoretycznie ta
+1:04:13 | @przemysaw6012: @Marynarzx totalnie początkującyc
+1:04:34 | @SimiForKing: @PinguVanEx w dużym skrócie klasa to jest typ złożony (tak w uproszczeniu) i każdy typ złożony ma pola
+1:04:35 | @notdotpy: pycharm ma community edition więc na luzie, szczerze poleca
+1:04:47 | @wojtek0993: Q: Podasz zagadnienia do tych 12 projektow? - mniej wiecej tematyke
+1:04:47 | @PawelLukasiewicz: Q: Jak bardzo jest okrojona darmowa wersja Cursor? Piszą o limicie na tab'y czy zapytania do agentów. A konkretniej? Da się tego używać
+1:04:56 | @Temptater: Q: Który to bilet? Master czy wystarczy ten za 7
+1:05:05 | @SimiForKing: @wojtek0993 jest na stronie opisany każdy projekt co będzi
+1:05:14 | @ParadiseAix: no to do zobaczenia na praktycznym super
+1:05:22 | @wojtek0993: @SimiForKing dzieki!
+1:05:27 | @krzysztof4312: PyGame i jedziem
+1:05:29 | @dbzubal: do korpo jest minicond
+1:05:53 | @Krzysztof.Radzikowski: jest 14 dniowy trial
+1:06:05 | @photo67: można śmiało pobrać właśnie w przerwie weszło
+1:06:19 | @Krzysztof.Radzikowski: o juz tylko 7 dniowy trial 
+1:06:43 | @pawe433: Dobry synth był to przyszedł prowadzący i wszystko zepsuł
+1:07:09 | @rozko2653: mam ten sam proble
+1:07:25 | @Elfren95: .. dlatego jak najszybciej trzeba iść w obiektówkę  Ciężej potem wejsć 
+1:07:26 | @mateuszswiecki2596: sprawdźcie maila
+1:07:44 | @KrzysztofLeśniak-r2w: @Temptater Qgdzie ten bilet
+1:07:45 | @mateuszswiecki2596: powinniście dostać link do potwierdzenia rejestracji i potem można się logną
+1:07:49 | @fajnanazwa3300: Q gdzie ten rozszerzony kurs można umiejscowić na temtej osi z nauka programowania, juniorem itd
+1:07:54 | @krzysztof4312: proceduraln
+1:08:00 | @begrael: proceduraln
+1:08:03 | @Pioorun: strukturaln
+1:08:05 | @rodzyn555: paradygmatyczne
+1:08:10 | @kasperlisiecki: maszynowe
+1:08:30 | @Marynarzx: a python vs DELPHI? duża różnica?
+1:08:32 | @PinguVanEx: Q Czy w python tez stosuje sie programowanie aspektowe
+1:08:34 | @RandomDude_mi6: sekwencyjne
+1:09:19 | @PinguVanEx: @Marynarzx wszystko, jedynie oba sa obiektowe, ale Object Pascal bardziej to pokazuj
+1:10:01 | @gokuworkout3675: batch / bash języki skryptow
+1:10:29 | @begrael: PHP jest skryptowy :
+1:11:08 | @KrzysztofLeśniak-r2w: Q Podajcie proszę ten link do znizki tego szkolenia 12 ..
+1:11:14 | @JasonStejtam: Q: na którym etapie ten kod bajtowy jest interpretowany przez interpreter
+1:11:24 | @krzysztof4312: Q Da się skimpilować to kodu maszynowego do wykonania bez konieczności udziału interpretera
+1:11:27 | @Henry-k8x3c: Q: python jest interpreterem 
+1:11:28 | @BestClashRoyalePlayerEver: kiedy tutorial po malbolge
+1:11:33 | @PinguVanEx: @begrael PHP to zmienil sie w typowana obiektowke, ale ma wiele paradygmatow, dlatego duzo syfu bylo bo latwo bylo wejs
+1:12:24 | @Marynarzx: bardzo skomplikowanie to tłumaczysz. ale o
+1:12:30 | @ukasztulibacki6268: @KrzysztofLeśniak-r2w trzyma
+1:12:40 | @begrael: @PinguVanEx Ale realizowany paradygmat, a to czy jest to kompilowany czy skryptowy, to 2 różne podział
+1:13:27 | @PinguVanEx: @begrael fakt, ale sadze, mozna dluga dyskusje zrobic na ten temat, zwlaszcza od wersji 
+1:13:54 | @ukasztulibacki6268: wrzuciłem wyże
+1:13:57 | @begrael: Tak, i jak właśnie powiedział Gyn, jest to zupełnie niepotrzebne teraz :
+1:14:00 | @psvpl: safe hex
+1:14:20 | @to-nie-idkfa: https://gyn.sekurak.pl/
+1:14:38 | @dt6610: Q czy można skompilować skrypt pythonowy, żeby nie można było odczytać jego codu, a zarazem był na tyle mały, zeby można go używać na urządzeniach IoT
+1:14:41 | @Athariel0: nie słycha
+1:14:48 | @Athariel0: czy tylko u mnie
+1:14:53 | @PinguVanEx: slycha
+1:14:54 | @morngrim2: u Ciebi
+1:15:00 | @annaslabosz9261: Tylko u Ciebi
+1:15:22 | @mjr_zan: Q: można prosić o linki do tych live stream'ów
+1:15:33 | @TheK0cur: X
+1:16:13 | @edytalatuszek3676: Q po wygyuglowaniu kursu pythona na sekuraka miałam cene 331z
+1:16:27 | @edytalatuszek3676: a ze zniżka tu 38
+1:16:56 | @TheFRCD: i co 
+1:16:58 | @Vatharian: Ci, co pamiętają stary wirus "I love You" wiedza, że brak rozszerzenia to dziura bezpieczeństwa. Microsoft wie lepiej
+1:17:50 | @Marynarzx: przepraszam za pytanie, jako początkujący, spóźniony(sorki), w czym powinieniem pisać? (może głupie pytanie-trudno
+1:18:19 | @GeraltWitcher11: Póki co nie musisz pisa
+1:18:26 | @radekjanik2657: @Marynarzx w czym Ci wygodnie 
+1:18:31 | @KrzysztofLeśniak-r2w: @to-nie-idkfa dzięk
+1:18:55 | @PinguVanEx: @Marynarzx jak pytasz o edytor to pobierz sobie PyCharm lub Visual Studio Code lub Curso
+1:18:55 | @Marynarzx: @radekjanik2657 tzn?
+1:18:58 | @ukasztulibacki6268: @edytalatuszek3676 podany link wrzuca fajna promkę na bilet extra, czyli sesja 11 i 1
+1:19:24 | @BestClashRoyalePlayerEver: q a jakaś analogia na macu
+1:19:28 | @adrosx7987: no nieladnie, Wy tu dajecie kurs pythona niby po obnizonej cenie a jak sie z przegladarki wbija (gugiel) to jest taniej :
+1:19:38 | @radekjanik2657: @Marynarzx W edytorze / IDE, ktory lubisz najbardziej - jesli nie masz ulubionego to wyprobuj sobie rozne, a z ktorymś na pewno zalapiesz "chemię"
+1:19:47 | @didi4836: Nie jest kompilowanym jest interpretowany
+1:20:06 | @ukasztulibacki6268: też wszedłem przez sklep.securitum i tak całość (Master jest tańszy) ale na estra promocji nie ma wcal
+1:20:25 | @BestClashRoyalePlayerEver: kurde vs mi się wywali
+1:20:32 | @adrosx7987: a to zwracam honor ;
+1:20:35 | @xyzxyz1222: Q Linux to Lubuntu
+1:20:51 | @psvpl: @xyzxyz1222 te
+1:20:56 | @nataliak404: labubuntu ;
+1:21:06 | @Marynarzx: widzę, że ten kurs jest dla bardziej zaawansowanych. chciałem się czegoś nauczyć ale nic nie rozumiem, sork
+1:21:18 | @exeriON-dev: q skad wiedziec z jakiej biblioteki korzystac
+1:21:41 | @psvpl: @Marynarzx bo to nie jest kurs z podstaw programowni
+1:21:49 | @begrael: @Marynarzx No właśnie. np. flask to jest do robienia serweró
+1:22:03 | @Marynarzx: "Już dziś (4 listopada br.) o godz. 19:00 zapraszamy na szkolenie Wstęp do programowania w Pythonie, które poprowadzi Gynvael Coldwind.
+1:22:18 | @nataliak404: @Marynarzx wg opisu szkolenia: CO POWINIENEŚ WIEDZIEĆ PRZED SZKOLENIEMZalecana jest znajomość podstaw programowania oraz Pythona.Warto mieć ogólną wiedzę z informatyki oraz wykazywać się dobrą
+1:22:18 | @nataliak404: znajomością obsługi komputera
+1:22:19 | @werazielin1301: Marynarz, obejrzyj pierwszą połowę, to będzie Ci łatwiej zrozumie
+1:22:25 | @psvpl: @Marynarzx "programowania w Pythonie" a nie programowania od zer
+1:22:26 | @ukasztulibacki6268: @Marynarzx będzie nagranie, więc można później na spokojnie zatrzymując sobie wg potrzeb uruchomić nagrani
+1:22:36 | @Henry-k8x3c: instalujesz flaska a trzeba go najpierw sciagnać czy skad się on bierz
+1:22:38 | @damiandamian1235: Q nie można wskazać ścieżki przy imporcie biblioteki
+1:22:41 | @Elfren95: nie lepszy od flaska jest django? może się ktoś wypowiedzieć
+1:23:04 | @mateuszswiecki2596:  wygodniejszy
+1:23:10 | @Elfren95: czy to też zależy co chcę robić ? :
+1:23:16 | @Marynarzx: wstęp do programowania, to podstawy, a tu bardzo dużo niezrozumiałych rzeczy, niewiadomo co do czego, od czego zacząć,. pozdrawiam Was, miłego wieczork
+1:23:23 | @Pawel-bj6qy: @Marynarzx Daj szansę, przynajmniej obejrzyj do końc
+1:23:27 | @radekjanik2657: @michamrowczynski512 bibiloteki są napisane w różnych celach: czyli w zalezności co chcesz napisać to dana biblioteka będzie do tego sluzyc
+1:23:29 | @rozko2653: jak już to wstęp do programowania., Po co tyle stresu? @psvpl
+1:23:35 | @Pawel-bj6qy: Poza tym pewne rzeczy trzeba samemu znaleź
+1:23:36 | @didi4836: Q: Gdzie jest kod wynikowy po kompilacji? W C++ w win to exe a w python
+1:23:48 | @PinguVanEx: @Elfren95 zalezy do czego, Django to duzy kombajn, do prostego rest api to flask ale teraz lepiej fastap
+1:23:59 | @Pawel-bj6qy: Jakiekolwiek "informatyczne" umiejętności, to przede wszystkim umiejętność znajdowania informacji
+1:24:14 | @psvpl: @rozko2653 przecież prowadzący mówił na początku, że zakłada iż wiemy co to jest zmienna i nie musi tłumaczyć od zera podstaw programowani
+1:24:15 | @Pawel-bj6qy: Trzeba szuka
+1:24:53 | @Marynarzx: @Pawel-bj6qy próbowałem gdzie indziej, trochę prościej to było tłumaczone, od podstaw, a tu nie rozumiem. Jak się potrafi to robić, to jest proste, ale jak nie masz pojęcia, to nie wiesz
+1:25:09 | @Marynarzx: pozdrowionka ;
+1:25:14 | @mateuszmarciniak1957: Q czym różni sie aplikacja od programu
+1:25:32 | @nataliak404: to jest "wstęp do programowania w pythonie", nie "wstęp do programowania"  warto posłuchać, robić częstsze przerwy, doczytywa
+1:25:35 | @Pawel-bj6qy: @Marynarzx Twój wybór, ale nie możesz od siebie oczekiwać, że po kilkudziesięciu minutach będziesz wszystko rozumia
+1:25:39 | @krakosasnl5099: @Marynarzx to co na razie jest pokazywane nie jest Ci aż tak potrzebne na ten moment. To jest tylko kwestia "wstępu"
+1:25:41 | @rozko2653: @psvpl - a ja zakładam, że jutro wygram wielką kasę.  wstęp to wstęp. I po to ja też tu jestem.
+1:26:16 | @psvpl: @rozko2653 więc jeśli wszystko rozumiesz to świetni
+1:26:42 | @rozko2653: no pewnie!
+1:27:04 | @magalia7882: Q Dlaczego jedne rzeczy piszesz w edytorze tekstu a inne w konsoli, czym się różni edytor od konsoli
+1:27:13 | @kacz4836: Q VS code to konsole otwieramy przez powershella czy systemowo
+1:27:23 | @nerdsinlaw: w temacie wlosow podobno w Turcji tanio dokrabiaja
+1:27:45 | @mateuszswiecki2596: @magalia7882 przewiń trochę do tyłu, na początku była o tym mowa
+1:27:47 | @KamilaNeko: ja sie zgubilam co mam robic w idle pythn a co w visualu czy pycharm
+1:27:55 | @marekostrowski1919: @kacz4836 w vsc możesz otworzyć terminal dość łatw
+1:28:22 | @PinguVanEx: x
+1:28:22 | @BestClashRoyalePlayerEver: q a jak dodać polskie znaczki do printów
+1:28:30 | @krakosasnl5099: @kacz4836 nie ma znaczenia, możesz nawet inny terminal niż powershell jeśli masz ochot
+1:28:33 | @ZCJGitara: jak zawsze super. przekaz... dzisiaj musze juz iść "sobie" ..ale.... wrócę do granie.. pozdrawiam serdecznie 
+1:28:43 | @Temptater: Conditionale! :
+1:28:44 | @paulinacebula4492: Musisz iść odpowiednią bibliotekę do polskich znakó
+1:28:58 | @grelmedialski2241: jesli tak, to cofnij do instrukcjui pokroic i zmien zmienna warzywo na seler i wroc do podpalenia gazu, nakryj pokrywka :
+1:29:39 | @radekjanik2657: @KamilaNeko edytor to jest Twoj "permanentny repl" - tam laduje Twoj kod - REPL jest do szybkiego testowania czy kod, ktory planujesz dodac do tresci pliku zadziala 
+1:30:10 | @tomaszczerwinski1974: kup bułki a jak beda parówki to weź 
+1:30:10 | @KamilaNeko: dzieki
+1:30:26 | @SimiForKing: @BestClashRoyalePlayerEver pod windowsem
+1:30:31 | @photo67: Q Daj link do tego vide
+1:30:38 | @paulinacebula4492: Ogólnie program jest tak mądry jak mądry jest programista który go pisz
+1:31:01 | @kimi_alone: piękne wideo - lubie patrzec jak swiat płoni
+1:31:07 | @gokuworkout3675: @SekurakTV Idź do sklepu kup mleko jeśli będzie kup 5jaj x
+1:31:13 | @naw4883: @tomaszczerwinski1974 ja bym wziął 3 parówki :
+1:31:52 | @AdamRaciecki-p2w: Żart o programiście - kobita wysłała męża programistę do sklepu po chleb i mleko. Nie było mleka to nie kupił nic
+1:32:16 | @werazielin1301: @AdamRaciecki-p2w 
+1:32:35 | @begrael: Najlepszy żart to dziewczyna informatyk
+1:32:43 | @paulinacebula4492: “i” zobowiązuje
+1:32:46 | @BestClashRoyalePlayerEver: dawaj @begrael
+1:33:02 | @grelmedialski2241: Q: jakie najlepsze wciecie stosowac
+1:33:13 | @damianb-ski1145: te wcięcia to porażka na początku..
+1:33:13 | @psvpl: w tali
+1:33:46 | @Henry-k8x3c: Q: dlaczego piszemy if name.lower()=="michal" a nie if name=="michal
+1:33:48 | @gokuworkout3675: spacji a nie tabulatorów
+1:33:50 | @michacesarczyk7783: @begrael w literaturze nazywa się to antyteza :
+1:33:53 | @Vatharian: Tabulator
+1:34:08 | @psvpl: tylko spacj
+1:34:12 | @Henry-k8x3c: co to jest lower() 
+1:34:15 | @amkair: Q a tabulator na wcięcia?
+1:34:22 | @Margaroths: Q: Czy jest coś w stylu prettier lub beautify do pythona czy raczej trzeba samemu pilnować
+1:34:23 | @paulinacebula4492: Tab to jest inny znak w ascii niż spacja - tylko spacj
+1:34:29 | @PinguVanEx: IDE zmieniaja czesto tab na 4 spacj
+1:34:32 | @michacesarczyk7783: tab jest do vibe codingu ;
+1:34:33 | @krystiant: @Henry-k8x3c bo Michal <> micha
+1:34:33 | @KacperGrandCzech: @Henry-k8x3c mala iter
+1:35:12 | @psvpl: no chyba, że nagle "echo" a nie print ;
+1:36:14 | @Temptater: Q: a jak chcemy z wielkich liter to będzie 'bigger' czy 'capital' x
+1:36:25 | @begrael: uppe
+1:36:35 | @psvpl: @Temptater upper(
+1:38:54 | @dbzubal: gdzie linki
+1:39:06 | @krolikzbrowcem: discor
+1:39:31 | @Temptater: Q: Możesz wklejać linki też tutaj? Nie każdy jest na discordzi
+1:39:37 | @dbzubal: a to g...o eh :
+1:39:54 | @dbzubal: ni
+1:39:55 | @ukasztulibacki6268: ni
+1:39:57 | @KamilaNeko: ni
+1:39:57 | @pdz7197: ni
+1:39:57 | @Athariel0: nop
+1:39:58 | @izesagames1315: ni
+1:39:58 | @Margaroths: Nie
+1:39:58 | @suavosh: nie wida
+1:39:59 | @Temptater: nie widzim
+1:39:59 | @donio4: ni
+1:40:00 | @arturp7157: nie m
+1:40:00 | @MrMchz: ni
+1:40:02 | @nerdsinlaw: nop
+1:40:02 | @BestClashRoyalePlayerEver: Żona informatyka wysyła go po zakupy.- Kup parówki, a jak będą jajka, to kup dziesięć.Chłopina po wejściu do sklepu pyta:- Czy są jajka?- Tak. - odpowiada sprzedawca.- To poproszę dziesięć parówek
+1:40:03 | @jromtb: nie wida
+1:40:03 | @czajniqq: ni
+1:40:04 | @rosetnebula: nie widz
+1:40:04 | @adama2097: Nie ma linkó
+1:40:05 | @artur3481: ni
+1:40:07 | @lukasz_misiek: nie, tylko na discordzi
+1:40:07 | @edytanowicka2635: ni
+1:40:09 | @krakosasnl5099: youtube lubi wycinać linki, norm
+1:40:09 | @SekurakTV: https://docs.python.org/3/reference/compound_stmts.html%23the-if-statement
+1:40:10 | @BestClashRoyalePlayerEver: na
+1:40:12 | @rozko2653: nop
+1:40:16 | @SekurakTV: https://docs.python.org/3/reference/grammar.html
+1:40:41 | @mjr_zan: trzeba je zakodować w b6
+1:41:54 | @zorro5765: u mnie działają ;-
+1:41:54 | @dbzubal: for i - excelowe for eac
+1:42:41 | @PinguVanEx: Q Czy jest odpowiednik do...while
+1:43:22 | @dbzubal: a nie w właśnie while? albo używanie no
+1:43:26 | @julianzurawski4944: context manage
+1:43:27 | @FabFabek: kontekst menedże
+1:43:30 | @dbzubal: nie kojarzę unti
+1:45:06 | @begrael: Też nie kojarzę, a AI mówi, że nie m
+1:45:17 | @damianb-ski1145: Q: gdzie odszukać te typy wyjątków
+1:47:54 | @nerdsinlaw: szacun
+1:48:02 | @Vatharian: To jest przeciwieństwo skill issue :
+1:48:09 | @nerdsinlaw: :
+1:48:18 | @psvpl: overskill issu
+1:48:20 | @robert8262: taki papież informatyczn
+1:48:25 | @MPKiller545: 'b' + 'a'+ + 'a' = 'banana
+1:48:47 | @adamsonhq2402: ah
+1:48:48 | @magdalenanowakowska5263: oj , na rekrutacji byś za to wyleciał. JAk ten gościu co wymyślił FastAPI ale miał za mało w tym doświadczenia ;
+1:48:49 | @begrael: Q a Algolową zamianę zmiennych :=: Gyn zna
+1:48:51 | @AdamRaciecki-p2w: ciekawe czy cobola pamiętasz i czy w nim coś pisałes
+1:49:15 | @01zerojeden: Q: a jak ktoś uczył się JS to będzie trudniej w PY
+1:49:32 | @magdalenanowakowska5263: on wymyślił Cobola " I was there, three thousand years ago....
+1:49:43 | @psvpl: Q czy otwierająć szufladę należy złapać za uchwyt
+1:49:51 | @kamilpolit4140: Jeśli chodzi o błędy w pisaniu kodu to akurat jestem w tym dobry
+1:50:07 | @begrael: @01zerojeden generalnie jak znasz już nieco programowania, to będzie to bardziej pomocą niż przeszkod
+1:50:19 | @damiandamian1235: Q czy w pythonie jest uniwersalny typ wyjątku? Np Exception
+1:50:33 | @BestClashRoyalePlayerEver: q a co jak ktoś uczył się htmla?
+1:50:48 | @bartlomiejm0: Q czy stackoverflow w 2025 ma jeszcze rację bytu i sens, poza jakimiś wyjątkowo dziwnymi przypadkami
+1:50:49 | @PinguVanEx: to zna html 
+1:50:51 | @grelmedialski2241: htlm to zupelnie co inneg
+1:50:56 | @BestClashRoyalePlayerEver: jak to...
+1:50:59 | @BestClashRoyalePlayerEver: nieeee
+1:51:10 | @01zerojeden: o to pocieszająca wiadomość :
+1:51:24 | @BestClashRoyalePlayerEver: kurd
+1:51:24 | @robert8262: pamiętam jak kiedyś w htmlu całe strony sir robiło, nie jakieś cssy czy co ta
+1:51:29 | @Vatharian: HTML to taki plebejski late
+1:51:41 | @BestClashRoyalePlayerEver: @robert8262 totalni
+1:51:42 | @grelmedialski2241: html to opis wygladu / struktury dokumentu, a nie programowanie funkcji
+1:51:45 | @psvpl: nie ma pętli w html, więc sorr
+1:51:47 | @PinguVanEx: jeszcze nie jest  JS tez byl do animowanych platkow snieg
+1:51:56 | @BestClashRoyalePlayerEver: q do której dzisiaj będziemy
+1:52:00 | @michacesarczyk7783: @Vatharian  
+1:52:09 | @janbnoir211: jak to niektórzy haerowcy twierdzą java i javascript to przecież to samo :
+1:52:11 | @magdalenanowakowska5263: a kto programował we Flashu? ;
+1:52:13 | @Vatharian: w befunge też nie ma pętli, a jest językiem programowania, więc ten argument akurat jest inwalidą
+1:52:41 | @PinguVanEx: @magdalenanowakowska5263 w Action Scrip
+1:52:43 | @Vatharian: W actionscript3... nostalgłem..
+1:52:53 | @deropl2667: Q Czy po tym kursie będzie można pójść w kierunku pytorch czy jeszcze nie
+1:52:57 | @BestClashRoyalePlayerEver: q o której kończym
+1:52:59 | @Henry-k8x3c: Q while true co oznacza true jest stałą czy jak
+1:53:26 | @TheFRCD: AHAHHAHA JAK ŁĄDNI
+1:53:37 | @MPKiller545: jak na ravi
+1:53:42 | @nerdsinlaw: prawie jak Telegazeta :
+1:53:44 | @PinguVanEx: while {warunek} - true jako prawda wykonuje sie wiecznie (do przerwania
+1:53:45 | @Vatharian: while true to taki trochę skrót. pełna składnia to: While <warunek>
+1:53:51 | @Vatharian: warunkiem tutaj jest "True
+1:53:54 | @adama2097: Ktoś by dostał ataku epilepsji :
+1:54:12 | @Vatharian: całość sprawdza, czy warunek jest prawdziwy, a wyrażenie "True" Zawsze zwraca prawdziw
+1:54:12 | @kompcjusz: pasuje do muzyki :
+1:54:23 | @psvpl: @Vatharian sprawdź jak się tworzy pętle w Befunge zamiast mówić, że ich nie m
+1:54:26 | @Henry-k8x3c: o
+1:54:27 | @Krzysztof.Radzikowski: zamaist true mozna meic inne warunki nap sprawdzac czy zmiennia jest mneijsza niz 10 ->>>> while i<10
+1:54:35 | @pdz7197: Q co to za bit :
+1:54:55 | @katarzynakal-stan6612: niezła muzyczk
+1:54:56 | @nerdsinlaw: @pdz7197 szukaj u Wujka Tomk
+1:55:23 | @adama2097: tęczowy matrix się zawiesi
+1:55:45 | @begrael: Dotacje z USA się skończyły i tęczy nie będzi
+1:55:59 | @przemysaw6012: znalazł prawdę która nie jest prawdą :
+1:56:24 | @TheFRCD: skończył sie progra
+1:56:47 | @damianb-ski1145: no true nie jest już tru
+1:56:59 | @SekurakTV: https://gyn.sekurak.pl
+1:57:00 | @begrael: ! false == true Czyli fałsz z wykrzyknikiem staje się prawdą  Takie życiowe programowani
+1:56:59 | @SekurakTV: https://gyn.sekurak.pl
+1:57:48 | @TheFRCD: woooo panie toć to magi
+1:57:52 | @damianb-ski1145: miganie diodką w arduin
+1:58:00 | @MPKiller545: oj to cała przerwa znowu na programowaniu zleci ;
+1:58:56 | @antonikowal5937: to teraz Mateusz please
+1:59:12 | @antonikowal5937: matri
+1:59:37 | @nerdsinlaw: to juz wiadomix ze kolory z NAJLEPSZEJ przestrzeni 256 :
+2:00:19 | @sebastianstybel3639: NA PRZERWĘ @GYNVAEL
+2:00:43 | @albertooo3984: Gdzie będą dostępne zapiski live'a?
+2:01:45 | @De_rac: @albertooo3984 pod tym samym linkiem, pod ktory wszedle
+2:01:48 | @to-nie-idkfa: @albertooo3984 będzie dostępny pod tym samym linkiem
+2:02:15 | @OlszaOlszak: spóźniony, ale jestem ;
+2:02:42 | @De_rac: Ja mam takie pytanie troche offtop - kiedys pare wieczorow bawilem sie programem sikulix, to jest tez python
+2:03:22 | @przeGrajmy: Człowieku ty się zastanów! Oszukałeś przynajmniej 800 osób na tym chatcie mówiąc tak brzydko o HTMLu 
+2:03:23 | @sebastiandudzinski6538: [Q] Czy według Ciebie ma znaczenie start nauki programowania pomiędzy językiem wysokiego poziomu a niskiego poziomu
+2:03:34 | @bartsamsel3915: demoscena
+2:04:07 | @psvpl: @bartsamsel3915 yesss
+2:04:17 | @gokuworkout3675: w niektórych jest while do lub do whil
+2:06:20 | @lukasz_misiek: było było na MSHP :
+2:06:28 | @SekurakTV: https://en.wikipedia.org/wiki/ANSI_escape_code%2324-bit
+2:06:37 | @lukasz_misiek: zaczarowane terminal
+2:06:40 | @PinguVanEx: Q Czy w Py jest mozliwosc w petli for uzycia wartosci brzegowej, czy tutaj jest ograniczenie
+2:06:51 | @sarq1: kto był na MSHP, ten na 80% tego nie widział (?
+2:08:05 | @wojtek0993: Q: Kiedy tworzyc kody .py a kiedy uzywac notatnikow jupyter.
+2:08:55 | @nerdsinlaw: Q: czyli wyrazenie to jedna strona rownania
+2:09:45 | @psvpl: @nerdsinlaw nie, w przykładzie z print nie masz żadnego równani
+2:09:47 | @begrael: @wojtek0993 Jupiter - masz kod i tekst, który możesz formatować, zachowuje wyniki. Dobre do nauki i pokazania komuś, ale wynik to raczej jeden plik słabe do większych projektów
+2:10:17 | @begrael: @wojtek0993 W IDE masz osobne pliki do różnych rzeczy i możesz potem przenosić je do kolejnych projektó
+2:11:04 | @Mateo-n7: Q: Jaki to ma sens, że wynik działania lini
+2:11:18 | @Mateo-n7: 5+7 jest taki sam jak print(5+7
+2:11:30 | @PinguVanEx: Wyrazenia regularne.... 
+2:12:22 | @psvpl: wyrażnie regularne są zajebiste do pracy z tekste
+2:12:39 | @PinguVanEx: Podziwiam, jak ktos z palca umie je tworzy
+2:12:59 | @psvpl: jedna książka i trochę nauk
+2:13:16 | @PinguVanEx: regex101 i da rad
+2:13:18 | @psvpl: ja nie jestem progrmistą tylko adminem i regexp są super w mojej roboci
+2:13:33 | @radekjanik2657: @PinguVanEx wbrew pozorom one są zakrzaczone tylko wizualnie, jak zacznies z probowac to pisac a nie czytac, to sensu to nabiera bardzo szybko 
+2:13:47 | @begrael: regexy teraz z AI są super ważne, stąd język Perl wraca z niebyt
+2:14:00 | @psvpl: perl niech zostanie w niebyci
+2:14:15 | @begrael: Jedyny język typu write onl
+2:14:18 | @PinguVanEx: mialem ciekawy problem z regex z unicode, bo problem byl ze znakami a trzeba bylo dodac tylko, ze to unicod
+2:14:38 | @gokuworkout3675: string - ciąg znakó
+2:14:49 | @damianb-ski1145: char char[]
+2:15:02 | @psvpl: teraz pora na żarty o programistach i stringac
+2:15:03 | @kacz4836: Q a czy w python morze mieć float
+2:15:14 | @gokuworkout3675: szkoda że nie ostr x
+2:15:34 | @denisnickel5492: stringi, wszyscy wiemy o co chodzi, i tak na czacie nikt się nie przyzna że ma jedne na sobi
+2:15:50 | @AdamRaciecki-p2w: nie rozumiem jakiego zakresu dotyczy ten char chr(x) bo mi wyświetla \x00, \x03 itd, jest modulo ale skąd te znaki, one są z ascii
+2:15:52 | @begrael: @psvpl były żarty o dziewczynach programistów, teraz stringi, potem 10 typów ludzi i mamy komple
+2:16:40 | @psvpl: @begrael a na koniec, dlaczego programista zużywa całą butelkę szamponu do włosów na ra
+2:16:42 | @KamilaNeko: string nie jest zlozony? sklada sie z charo
+2:16:45 | @PinguVanEx: Q Czy Py posiada typy generyczne
+2:17:09 | @magdalenanowakowska5263: bo jesień jest, ciepłe gacie się nosi ;
+2:17:41 | @denisnickel5492: :
+2:18:03 | @AdamRaciecki-p2w: to chyba ascii bo chr(1) daje 
+2:18:04 | @radekjanik2657: @KamilaNeko to prawda, mozna o stringu myslec jako zbiorze znakow (np. mozesz na nich robic petle for: for c in "string":
+2:18:40 | @kacz4836: jak zatrzymac pętle while true proszę na już x
+2:18:42 | @KotTruskawkowy: Q: Elementy listy nie powinny mieć takiego samego typu wartości
+2:18:48 | @denisnickel5492: tyle że str to dalej str - lista może mieć nie tylko znak  dlatego złożona
+2:18:53 | @Mateo-n7: Q: Czy to jest lista - ["pies", "kot", 99
+2:18:54 | @psvpl: @kacz4836 ctrl+ 
+2:18:57 | @AdamRaciecki-p2w: ctrl+
+2:18:59 | @PinguVanEx: Q Czy zmienne w pamieci nie maja znaczenia? Widzialem art dla GO lub Rust, gdzie analiza pokazala jak na wydajnosc to wplywalo ze wzgledu na rozmiar zmiennyc
+2:19:00 | @magalia7882: Q czy zmienna może mieć kilka wartości? Np tak jak w badaniach ankietowych, zmienna odpowiada pytaniu, a wartości odpowiadają odpowiedziom. Przykładowo wartość 1 (oznacza "Tak"), 2 oznacza "Nie
+2:19:02 | @begrael: @radekjanik2657 nie zbiory, a ciąg
+2:19:27 | @sebastiandudzinski6538: [Q] Czy według Ciebie ma znaczenie start nauki programowania pomiędzy językiem wysokiego poziomu a niskiego poziomu
+2:19:33 | @jromtb: tablica
+2:19:42 | @robert8262: zapodacie linka do discorda? bo odjechał gdzieś w ciu
+2:19:57 | @Pawel-bj6qy: https://discord.gg/zVMnv9Yq
+2:20:13 | @kimi_alone: Q czy to rodzaj rzutowania
+2:20:29 | @PinguVanEx: @jromtb tablica mieszajaca (z haszowaniem). Czysta tablica to cos innego
+2:20:45 | @begrael: @jromtb w pythonie nie ma tablic. Poszli w list
+2:20:50 | @y3rzyk: Q: to mozna kilka nazw zmiennych do jednego obniektu w pamiecie ? :
+2:21:25 | @dbzubal: x-"" 
+2:21:46 | @man4video: jak się pomyli
+2:21:49 | @begrael: Q to 67 będzie obiektem czy będzie na stosie
+2:21:50 | @Temptater: Q: Czy mogę doczepić więcej obiektów do jednej zmiennej jak np 'x'
+2:21:57 | @man4video: list = [1,2,3] to raczej warto zrobić del lis
+2:21:57 | @jankowalszczak2689: {Q} zmienne a i tmp(ze slajdu) mają tę samą wartość ale to są DWIE ROŻNE zmienne? w sensie mozna zmodyfikowac a tmp pozostaje niezmienione
+2:22:00 | @damiandamian1235: Q del nie powinno się używać do zwalniania pamięci
+2:22:14 | @denisnickel5492: ta
+2:22:26 | @Henry-k8x3c: Q: czy trzeba definiowac najpierw obiekt 67 czy od razu przypisuje sie x=67 
+2:22:41 | @PinguVanEx: @damiandamian1235 to pewnie zalezy, bo GC moze lepiej czyscic i agregowac dalej pamie
+2:23:26 | @denisnickel5492: można też: a, tmp = 6
+2:24:12 | @dbzubal: są typy double , single, variant jak w excel?
+2:24:17 | @dbzubal: kiedy decimal a kiedy floa
+2:24:28 | @gokuworkout3675: Q: a co sie stanie jeśli przypiszesz mu do zmiennej liczbę pi i każesz całą wyświetlić x
+2:24:34 | @psvpl: @denisnickel5492 a to nie stworzy dwóch zmiennych a i tmp o wartości 67
+2:24:56 | @denisnickel5492: tak utworzysz dwie zmienne z tą samą wartości
+2:25:04 | @MPKiller545: 0.0 interestin
+2:25:19 | @Mateo-n7: Q: czyli typ int nie ma z góry określonej wielkości w bajtach
+2:25:22 | @MPKiller545: czy 0.0 == 0?
+2:25:29 | @Krzysztof.Radzikowski: a teraz 0.1 + 0.2 
+2:25:42 | @psvpl: @denisnickel5492 chyba nie przecztałem całości i zastanawiałem się co komentujesz :
+2:25:55 | @suavosh: Q: czy None to jak NULL w SQLu
+2:26:11 | @denisnickel5492: ktoś zadał pytanie to odpowiedziałem - don't worr
+2:26:11 | @jakubkarasiuk: a czym jest "NaN"
+2:26:31 | @MPKiller545: pustk
+2:26:38 | @bartlomiejm0: czyli to void taki
+2:26:57 | @zygzaketlwsl: @jakubkarasiuk NaN to skrót od Not a Numbe
+2:27:56 | @jakubkarasiuk: Dziękuję <3, czyli to będzie się zaliczać pod type
+2:27:59 | @naw4883: None to jak nullptr w C+
+2:28:48 | @kacz4836: czyli w sumie to mogę pisać program paython w pawershell na windos
+2:29:09 | @begrael: a jak go zapiszesz na przyszłość
+2:29:21 | @naw4883: programik tak, mozes
+2:29:27 | @psvpl: @kacz4836 tak, ale go nie zapiszesz na później, więc to dobre do szybkich testów albo jako kalkulator ;
+2:30:03 | @marcinmisiak4357: czyli coś jak NULL 
+2:30:07 | @damianb-ski1145: Q: to jest tak odmienne od innych jezykó
+2:30:19 | @kulkajereczek1843: ta
+2:30:20 | @jromtb: tak :
+2:30:24 | @mjr_zan: a JWT się liczy
+2:30:27 | @KotTruskawkowy: Tak używam czasem jsona :
+2:30:34 | @psvpl: ja tylko oglądam JSON-
+2:30:57 | @marekostrowski1919: object w jso
+2:30:57 | @gokuworkout3675: tablica dwuwymiarow
+2:31:06 | @PinguVanEx: 43 bedzie int czy str
+2:31:16 | @denisnickel5492: in
+2:31:25 | @KamilaNeko: a nie str? bo jest w " 
+2:31:25 | @izornek: Q: czy do kluczy można przypisywać tablice
+2:31:28 | @denisnickel5492: str bo jest w apostrofi
+2:31:29 | @denisnickel5492: X
+2:31:32 | @krakosasnl5099: Q: Czyli jako klucz można użyć też int'a np
+2:31:37 | @gokuworkout3675: @PinguVanEx zależy jak zapiszesz jeśli w cudzysłowiu to będzie string
+2:31:41 | @werazielin1301: Q: Czy Gynvael planujesz może udostępnić tę prezentację? :
+2:31:57 | @psvpl: @werazielin1301 mówił, że ta
+2:32:13 | @werazielin1301: dzięki
+2:32:15 | @MPKiller545: "43" -> st
+2:32:19 | @MPKiller545: 43 -> in
+2:32:28 | @PinguVanEx: @gokuworkout3675 dzieki, wlasnie sie zastanawialem czy cos magicznego tam jest w stylu "2" + 2 = 
+2:32:35 | @kacz4836: Q wrzuci pan tą prezentacje gdzieś
+2:32:50 | @Temptater: Q: Czy zamrożoną listę 'tuple' moge przerobić na zwykłą listę komendą i dodać jakieś wartości do tej listy
+2:33:01 | @Mateo-n7: Q: czy wielkość liter w nazwach zmiennych jest znacząca
+2:33:18 | @denisnickel5492: tak ale przypisując ją do zmienne
+2:34:04 | @JasonStejtam: @Henry-k8x3c przypisujesz od razu x=67 a zasadniczo to x będzie odwołaniem do 67, a zasadniczo 67 jest wbudowane w moduł Python
+2:34:50 | @psvpl: @Temptater nie wiem czy da się komendą w pythonie, ale na pewno da się programistyczie przepiując zawartość w inne miejsc
+2:34:57 | @JasonStejtam: @Temptater tak, wykorzystując funkcję list(
+2:35:07 | @JasonStejtam: @Mateo-n7 wielkość ma znaczenie - jest case sensitiv
+2:35:12 | @JasonStejtam: @kacz4836 będzie prezentacj
+2:35:52 | @bartlomiejm0: a potem użytkownik wpisze "dwa" i świat zaczyna płoną
+2:36:20 | @JasonStejtam: @krakosasnl5099 możesz użyć czegokolwiek jako key w słownik
+2:36:28 | @damianb-ski1145: Q: a może przed zmianą zweryfikuj czy to liczba
+2:36:34 | @JasonStejtam: zasadniczo to kluczem mogą być wszystkie obiekty które są "hashable
+2:36:39 | @psvpl: @bartsamsel3915 wtedy przypomniamy sobie o try except ;
+2:37:02 | @krakosasnl5099: @JasonStejtam dzieki
+2:37:18 | @PinguVanEx: Q Czy w Py jest rzutowanie zmiennej czy sam sobie to ogarnia
+2:37:26 | @Henry-k8x3c: Q: czy napisany program w pytonie bedzie dziala na maszynie na ktorej nie ma interpreter
+2:38:08 | @JasonStejtam: @Henry-k8x3c a co go zinterpretuje? musiałbyś wykorzystać jakiś bundler, który będzie miał zapięty jakiś mini interprete
+2:39:34 | @amkair: Q a zgodnie z tym co mówiłeś, żeby nie powtarzać, mogłes zroibć funkcje i zastosować do obu zmiennych?
+2:39:40 | @Henry-k8x3c: nie ma mozliwosci tworzyc plikow wykonywalnych .ex
+2:39:42 | @JasonStejtam: @PinguVanEx pojęcie zmiennej w Pythonie jest rozmyte, zmienna w Pythonie to nazwa odwołująca się do obiektu, x = 10; x = 5.0; x = [1, 2, 3] wykonane po kolei jest poprawne, bo 'x' na coś wskazuj
+2:40:15 | @JasonStejtam: @Henry-k8x3c pythona nie można bezpośrednio skompilować do exe - do tego wykorzystuje się bundler
+2:40:24 | @JasonStejtam: o czym zapewne Gyn wspomni na późniejszym etapi
+2:41:16 | @PinguVanEx: @JasonStejtam a wiesz moze czy nadpisuje dane komorki pamieci czy zmienia wskaznik na inna adresacje
+2:41:27 | @mateusz6517: Q - Co jeżeli problem jest bardziej złożony, abstrakcyjny? Czy pseudod nadal tutaj pomoże? To tak odwołam się do testów eksploracyjnych - gdzie nie znamy funkcjonalności dobrz
+2:41:52 | @bartsamsel3915: @psvpl (y
+2:41:59 | @Temptater: Q: A możesz wpisać cyfry / liczby słownie i on sobie z tym poradzi
+2:41:59 | @jromtb: Q: To (env) na końcu o czym mówi
+2:42:12 | @Henry-k8x3c: czyli na arduino lub rassbery pi trzeba doinstalowac bundler 
+2:42:43 | @JasonStejtam: @PinguVanEx to zależy jakie obiekty, ale zwykle zmienia wskaźnik na inną adresację, bo mu się np. zmienia rozmiar i musi na nowo alokować obszar w pamięc
+2:42:53 | @KamilaNeko: @temptater chyba nie poradzi bo to inny typ chyb
+2:42:57 | @PinguVanEx: @Henry-k8x3c do rpi jak zainstalujesz raspbiana lub innego debiana to masz ta juz unterpreter python
+2:43:36 | @psvpl: @JasonStejtam mądrego to miło poczytać :
+2:43:41 | @DteamMachine: Q: skoro wiadomo, ze beda cyfry, to nie mozna od razu pobrac jako cyfre, tylko trzeba pobietac string i konwertowac na cyfre
+2:43:58 | @JasonStejtam: @Henry-k8x3c bundlery to narzędzia, które pakują (bundlują) interptere, skrypt oraz wszystkie jego zależności (w tym biblioteki Pythona i ewentualnie inne pliki) w jeden lub kilka plikó
+2:44:13 | @kacz4836: ktoś mi wytłumaczy jak z VS code właczyć to wy console bo ja obenie to kopiuje do pawer shella a to sensu nie m
+2:44:28 | @PinguVanEx: @DteamMachine dla czlowieka to oczywiste, ale dla maszyny to jest wartosc tekstowa wpisana w konsol
+2:44:28 | @JasonStejtam: @DteamMachine input domyślnie przyjmuje stringa, więc musisz go skonwertować do int
+2:44:50 | @psvpl: @kacz4836 w prawym górnym rogu jest taki przycisk wyglądający jak play, spróbuj tak uruchomić ko
+2:45:04 | @marekostrowski1919: ctrl+shift+
+2:45:33 | @nerdsinlaw: jest suuuper - drugia raz przechodze ;)
+2:45:38 | @ParadiseAix: super dzieki wielki
+2:45:45 | @JasonStejtam: choćbym posiadł całą wiedzę, to Gynvael zawsze zaskoczy czymś nowym 
+2:46:06 | @dragon121a: łatwo sie tworzy taki progra
+2:46:12 | @DteamMachine: jasonstejtam: rozumiem, dziekuje
+2:46:28 | @marcinmisiak4357: @kacz4836 masz na górze Terminal
+2:46:37 | @dragon121a: łatwo sie tworzy taką gr
+2:47:41 | @radekjanik2657: Q jesli moglbys podac kilka narzedzi terminalowych do pracy z pythonem takich jak debuggery i podobne narzedzia do pracy z kodem, bez koniecznosci bloatu IDE
+2:47:41 | @czarny969: Q Czy da się w python wykorzystać że ktoś nie dał obsługi błędów np w walidacji danych jako podatność
+2:47:43 | @krolikzbrowcem: @dragon121a ale nie polecam robić gry od zera w pygame, czyję się jakbym nagle nie wiedział co robię :
+2:47:54 | @JasonStejtam: @czarny969 oczywiści
+2:48:01 | @mjr_zan: Q: Jakie jest Twoje ulubione distro do pracy na co dzień
+2:48:05 | @the3md1: Q czy ten dzisiejszy kurs wystarczy zeby zaczac ten 12 tygodniowy
+2:48:05 | @De_rac: Q Co ile mniej wiecej robicie takie kursy - chodzi mi konkretnie o ten kurs ktory bedzie za pare dn
+2:48:15 | @JasonStejtam: @mjr_zan Gyn pracuje na Kubuntu
+2:48:26 | @JasonStejtam: @De_rac poprzednia wersja była w maju tego rok
+2:48:30 | @dragon121a: @ krolikzbrowcem dzięk
+2:48:34 | @tadeuszkobron9837: Czy kurs praktyczny Python 12 projektów będzie prostszym kursem niż majowy kurs 10 projektów??
+2:48:41 | @mjr_zan: @JasonStejtam dzięk
+2:48:45 | @JasonStejtam: @tadeuszkobron9837 to raczej powtórk
+2:48:50 | @De_rac: @JasonStejtam Dziek
+2:49:04 | @damiandamian1235: Q co do nazywania plików tak aby nie kolidowały z nazwami bibliotek. Przy imporcie nie można podać czegoś w rodzaju ścieżki do biblioteki aby uniknąć kolizji nazw
+2:49:25 | @kimi_alone: Q: jesli do obiektu przyczepiamy zmienną x (w przykladach bylo x = 67) to czy to przyczepienie jest rzutowaniem
+2:49:35 | @zakensik: W jakich godzinach będą odbywać się sesje Python Master
+2:50:15 | @Rumakownie: @ czy w pythonie mamy aktualne zagadnienia zwiazane ze wskaźnikami?
+2:50:27 | @JasonStejtam: @kimi_alone nie jest to klasyczne rzutowanie, po prostu x wskazuje w danym momencie na liczbę 6
+2:50:27 | @mentostheundying: environmen
+2:50:52 | @JasonStejtam: @Rumakownie są wskaźniki, ale są "przezroczyste" dla użytkownik
+2:50:58 | @mateuszmarciniak1957: Q a czemu nie chcemy instalować bibliotek globalnie (env) 
+2:51:03 | @Temptater: Q: Czy zawsze muszę mu instalować biblioteki? Czy środowisko np 'crusor' będzie miało już wgrane wszystkie niezbędne biblioteki
+2:51:37 | @JasonStejtam: @mateuszmarciniak1957 żeby ci nie zaśmiecało systemu, a po drugie co w przypadku gdy jeden projekt wykorzystuje wersję 3.5, a inny projekt 4.2? - do tego celu stworzone jest virtual environmen
+2:51:40 | @naw4883: Super prowadzący — pewny siebie jak trzeba. Nie owija w bawełnę: jak komuś nie pasuje, to zawsze są inne kursy. Szacun za szczerość, rzadki gatunek w edukacji
+2:51:51 | @sebastiandudzinski6538: [Q] Czy uważasz, że lepiej zaczynać naukę programowania od języków wysokiego poziomu czy niskiego, czy to w ogóle ma znaczenie
+2:51:56 | @psvpl: @naw4883 właśnie :
+2:52:20 | @Daniel-kh2cc: Q Może na super ciąg szkoleń Sekurak Academy 2026 pojawi się też jakiś kod
+2:52:27 | @JasonStejtam: @Temptater dużo bibliotek będzie zainstalowanych, bo są ze standardowej biblioteki, a jeżeli czegoś nie będziesz miał to dostaniesz błąd -- można zainstalować za pomocą 'pip install
+2:52:41 | @Henry-k8x3c: Q: mógłbyś trochę wytłumaczyć jak dziala wykonywanie programu z edytora do interpretera i wynik zawsze w cmd pod windowsem 
+2:53:06 | @JasonStejtam: @sebastiandudzinski6538 swego czasu Gyn polecał na początek języki wysokiego poziomu typu Python, JavaScrip
+2:53:21 | @damianb-ski1145: Q: ponowię pytanie, czy będzie coś wspomniane o wielowątkowości
+2:53:38 | @JasonStejtam: @damianb-ski1145 tak będzie, na 3 lekcj
+2:53:52 | @jromtb: Q: wracając do pytania o pobierania liczby - czy można użyć już jakiejś biblioteki z napisaną funkcją, są takie biblioteki i gdzie je szukać
+2:53:55 | @JasonStejtam: łamanie hashy z wykorzystaniem multithreading i multiprocessin
+2:56:07 | @cutting_void: Q: hej Panowie. Ja tak towarzyszko bo dawno was nie widziałem. Dzięki za świetnie podaną wiedzę. Kawał dobrej roboty jak zawsze
+2:56:18 | @begrael: A C i C++ to nie jest wysoki poziom
+2:56:20 | @izornek: Q: Czy do klucza w zmiennej dict można przypisać listę
+2:56:25 | @mjr_zan: Q: czy mamy jakieś ćwiczenia na zrobić jutro
+2:56:39 | @JasonStejtam: @izornek nie można, bo list jest mutable, a więc nie jest hashabl
+2:56:42 | @tadeuszkobron9837: Q: Napisałem prosty program w Pythonie otwierający jakąś przykładową stronę internetową. Czy mogę w Pythonie określić w jakiej przeglądarce chciałbym określić tą stronę? Z czego muszę skorzystać
+2:57:10 | @KamilaNeko: Q: Gdzie i jak się nauczyć pythona od zupełnego zera (ale serio, zakładając że się nie zna takich rzeczy jak idle, visual itp). Bo nawet tu we wstępie trzeba juz jakąś wiedzę mieć. Samemu nie idzi
+2:57:52 | @grelmedialski2241: Q: czy env jest wewnatrz jednej wersji pythona czy mozemy w venv zainstalowac inna wersje pythona, czy jednak docker pomoze bardziej
+2:57:53 | @psvpl: ja też nei rozumiem tego pytani
+2:58:19 | @PinguVanEx: Q: Czy Python ma alternatywne interpretery
+2:58:20 | @JasonStejtam: @grelmedialski2241 ty decydujesz jaka wersja Pythona ma być dla danego venv
+2:58:23 | @cezaryzahorowski8481: @KamilaNeko idzie i samemu, kwestia zawziętośc
+2:58:39 | @begrael: Dzięki za dziś! Pozdrawia
+2:59:03 | @czarny969: Q Czy w python sandbox ma sens żeby ograniczyć atakującemu dostęp do środowiska np linux na maszynie np v
+2:59:04 | @KamilaNeko: @cezaryzahorowski8481 no nie idzie za cholere uz od 3 lat, a musze sie nauczy
+2:59:05 | @JasonStejtam: @PinguVanEx ma i to sporo, typu Jython– napisana w Java, MicroPython, IronPython, PyP
+2:59:05 | @NuoDevix: Q: jak sobie radzissz z podatnościami w pip? Jak zapobiec instalacji złośliwych paczek
+2:59:57 | @cezaryzahorowski8481: @KamilaNeko to trzeba zmienić metodologi
+3:00:00 | @Krzysztof.Radzikowski: uv mocno upraszcza sprawe vevn
+3:00:14 | @JasonStejtam: Dziękuję za szkolenie Gyn, mocno jak zawsze, pozdrówk
+3:00:39 | @KamilaNeko: @cezaryzahorowski8481 no to wlasnie pytam jak ;_
+3:00:43 | @Mloody11: Ma ktos jeszcze kod do hackArcana?
+3:00:49 | @rodzyn555: cwiczonko juz dawno zrobion
+3:01:22 | @cezaryzahorowski8481: @KamilaNeko mnie wystarczyły pdf i klepani
+3:01:23 | @andrzejdebowski8803: Czy będzie pokazany proces kompilacji kodu do instalatora
+3:01:28 | @Bartosz-mod: @Mloody11 da21205d5a11134
+3:01:42 | @GynvaelColdwind: da21205d5a11134
+3:01:50 | @mjr_zan: Super szkolenie, dzięki za dziś :
+3:02:00 | @missygnalek: Dziękuje
+3:02:07 | @GynvaelColdwind: wszelkie pytania możecie śmiało zadawać na discordzie - nie gryzę ;
+3:02:08 | @Henry-k8x3c: Q próbuje doprecyzować : platforma windows 11 , ogolnie jak to wszystko jest powiązane edytor interpreter a wykonywanie programu czy mozna wyniki dostawac w oknie windowsowym np w przegladarc
+3:02:08 | @damianb-ski1145: dobrano
+3:02:09 | @pawemateja1001: dzięki bardzo. do jutr
+3:02:18 | @werazielin1301: Dziękuję ! :
+3:02:20 | @the3md1: dziek
+3:02:21 | @cezaryzahorowski8481: @KamilaNeko nadal jestem na początku drogi, ale wszystko przede mn
+3:02:22 | @mariusztrzcina-szrek9885: thx, cz
+3:02:23 | @jromtb: Dzięki. Do jutr
+3:02:24 | @3ci_music: dzięki
+3:02:31 | @to-nie-idkfa: dzięki :
+3:02:32 | @MichalOrpel: Dzięki :
+3:02:34 | @Henry-k8x3c: czy zawsze pracujemy na oknie terminal
+3:02:36 | @krakosasnl5099: Dzięki! Do jutra :
+3:02:39 | @lukasz_misiek: Super, wielkie dzięki!
+3:02:41 | @Pioorun: a link do filmu tatusiem ealizującym instrukcje dzieci
+3:02:41 | @jacekklimko9276: dzięk
+3:02:42 | @kordalowie: Dzięki :
+3:02:44 | @zakensik: dzięk
+3:02:44 | @MrMchz: dzięki za dzisiaj. Do jutra
+3:02:46 | @mateusz6517: dzięki
+3:02:46 | @exeriON-dev: dzięk
+3:02:48 | @ancn4286: dziękuję, do jutra
+3:02:49 | @astrodisco: Dzieki, pozdro60
+3:02:50 | @czarny969: @andrzejdebowski8803 nie kompiluje się kodu do instalatora daje się tam po prostu exe i jego zależności częst
+3:02:51 | @cutting_void: Dzięki Panowie
+3:02:52 | @shao_may8813: Dziękuję :
+3:02:54 | @PeterRimmSky: Dzięki, dobre prowadzenie sesj
+3:02:54 | @artur3481: dzięki, cześ
+3:02:57 | @photo67: Tx
+3:02:59 | @joannalisok3765: dziękuje i do jutr
+3:03:01 | @cezaryzahorowski8481: dzięki za dzi
+3:03:03 | @KamilaNeko: @cezaryzahorowski8481 no to zazdro, u mnie nie chce "kliknąć" niewazne ile przy tym siedz
+3:03:03 | @bulba7: dzięk
+3:03:08 | @mateusz6517: merytoryka super, lepsze niż tutorial hell 
+3:03:10 | @sebastiancmak7156: Dobrano
+3:03:10 | @photo67: do jutra :
+3:03:10 | @leszekzur6007: dzięk
+3:03:13 | @caaanvi: Dzięk
+3:03:33 | @HanSor89: dziek
+3:03:36 | @piotrduczynski1679: th
+3:03:42 | @rosetnebula: dzięk
+3:03:48 | @grzegorzgrabowski1551: dzięk
+3:03:50 | @jakubkarasiuk: dziekujem
+3:03:51 | @Pawel-bj6qy: Dzięki
+3:03:51 | @nerdsinlaw: dzieki!!!
+3:03:54 | @magdalenapak6857: dzięk
+3:03:55 | @robert8262: dzięki
+3:03:55 | @Mylus69: dzięk
+3:03:57 | @wojciechknigawka2817: Dzięk
+3:03:58 | @to-nie-idkfa: dzięki, do jutra 
+3:04:00 | @agnieszkas5411: dzięk
+3:04:08 | @GamesFunPLpl: Dzięk
+3:04:09 | @MPKiller545: dzięki ;
+3:04:13 | @adamn3306: dzięk
+3:04:14 | @Gason71: dzieki i milej nocy :
+3:04:23 | @tomitomi2251: dzięki, cześ
+3:04:38 | @GynvaelColdwind: @Henry-k8x3c tak, można również w przeglądarce, ale jest to kapkę bardziej skomplikowane żeby to połączyć (na tym drugim kursie to jest
+3:04:42 | @marekwoznica3408: dzięki cześ
+3:04:48 | @ryszardglegola125: Dzięki
