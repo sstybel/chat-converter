@@ -18,6 +18,7 @@ In this repository, I've included sample PowerShell code (`yt-down.ps1`) that do
 * `--json JSON` - Input JSON Chat file or `auto` to select first JSON file in current directory
 * `--output OUTPUT` - Output text Chat file or `auto` to create output file with same name as input file and add .txt extension
 * `--print` - Print Chat messages to console
+* `--add-line-number` - Add line numbers to each message in output file and console output
 * `--help`, `-h` - Show this help message and exit
 
 ## Copyright &copy; 2025 by Sebastian Stybel, [www.BONO.Edu.PL](https://www.bono.edu.pl/)
