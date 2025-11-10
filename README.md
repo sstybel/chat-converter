@@ -11,7 +11,7 @@ Sample execution of the **`yt-dlp.exe`** application downloading a YouTube recor
 
 In this repository, I've included sample PowerShell code (`yt-down.ps1`) that downloads a YouTube recording along with a live chat saved in JSON (.json) format and converts it to a text file (.txt).
 
-**Usage:** **`chat-converter.exe`** [--json JSON] [--output OUTPUT] [--print] [--help | -h]`
+**Usage:** **`chat-converter.exe`** [--json JSON] [--output OUTPUT] [--print] [--add-line-number] [--help | -h]`
 
 **Options:**
 
