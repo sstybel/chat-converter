@@ -21,4 +21,4 @@ In this repository, I've included sample PowerShell code (`yt-down.ps1`) that do
 * `--add-line-number` - Add line numbers to each message in output file and console output
 * `--help`, `-h` - Show this help message and exit
 
-## Copyright &copy; 2025 by Sebastian Stybel, [www.BONO.Edu.PL](https://www.bono.edu.pl/)
+## Copyright &copy; 2025 - 2026 by Sebastian Stybel, [www.BONO.Edu.PL](https://www.bono.edu.pl/)
