@@ -133,7 +133,7 @@ with open(fn_output, 'w', encoding='utf-8') as f_output:
                else:
                   t_msg += msg['text']
          
-         t_msg = t_msg[0:-1]
+         t_msg = t_msg.rstrip()
          
          if 'authorName' in chat_msgs:
             author = chat_msgs['authorName']['simpleText']
