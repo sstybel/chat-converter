@@ -35,4 +35,4 @@ In this repository, I've included sample PowerShell code (`yt-down.ps1`) that do
 
 ---
 
-## Copyright &copy; 2025 - 2026 by Sebastian Stybel, [www.BONO.Edu.PL](https://www.bono.edu.pl/)
+## Copyright &copy; 2025 - 2026 by Sebastian Stybel, [www.BONO-IT.pl](https://www.bono-it.pl/)

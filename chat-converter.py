@@ -6,7 +6,7 @@ from sys import exit
 
 str_version = "1.02"
 str_app_name ="Converter YouTube Live-Chat JSON file to Text file - ver. " + str_version
-str_author = "Copyright (c) 2025 - 2026 by Sebastian Stybel, www.BONO.Edu.PL"
+str_author = "Copyright (c) 2025 - 2026 by Sebastian Stybel, www.BONO-IT.pl"
 
 print("\n" + str_app_name)
 print(str_author)
